@@ -1,0 +1,1222 @@
+#122986499164761 
+Msgs: 259
+No errors detected inside logs Partial 
+Phase: PRD
+Appl.: TDSTDS_PK2TDS_PK3TDS_PK4...
+Types: ERRORSTATSFEAGENTCS...
+Mode: token
+Log files:ALL 
+Pattern:  000100UV3GRDK4
+Author: 1A/BRAOBORRA
+Date: 22-04-2024
+Time: 07:15:31.800-07:20:31.800
+Span: +5 Minutes
+1 / FE 
+2024/04/22 07:16:06.855962 lgsap629-MUC obevp623 FE12TYZPGXE2LJK-759074 [PFX: 007KBQMMK40001:#######697012338989173#0#0:1-1] RECEIVER: Nb=150972059 Len=865
+UNB+IATB:1+MSX+1ASRTDMAMS+240422:0716+007KBQMMK40001+++O'
+UNH+1+MFNDCQ:11:3:1A+000100UV3GRDK4'
+DCX+346+<DCC VERS="1.0"><MW><UKEY VAL="#######697012338989173#0#0" TRXNB="1-1" PAR="T07CGUSYC$BF1KN5DM5PARZ5J1"/><SAP NAME="1ASIMSX"/><DYNR><PEAKTK TYPE="AIRIT" VAL="MSX-PK2"/><PEAKTK TYPE="AIRIT" VAL="GA" ACTION="O"/></DYNR></MW><TRX><SRC IP="172.25.16.148:58448"/></TRX><CALL><CLIENT TYPE="APP" NAME="AML" PAAS="MUC" PHASE="PRD" PEAK="2"/></CALL></DCC>'
+OWN+GA+MSX'
+FND+EML'
+EML+EML:.OOJUCAYADRPAMGLAM@NC:TO'
+EML+++Message sent from AMS:ASCII-7++EML:MUCPNGA from Amadeus Messaging Server <naeopra-useyo@s.cmmamld>'
+DCM++BDY:TTY:ADL'
+DUM'
+DTA+BDY++text/plain:UTF-8'
+BLB+172+B+ADL
+GA304/24APR CGK PART1
+ANA/113193
+CFG/012C150Y/738
+RBD C/JCDOIZ Y/YWUBMKNQXGTVESHL
+AVAIL
+ CGK  SUB
+C010
+Y060
+-SUB064Y
+DEL
+1HIDAYAT/IVANMR
+.L/6TXFT4
+ENDADL
+'
+UNT+11+1'
+UNZ+1+007KBQMMK40001'
+2 / BE 
++2.1ms2024/04/22 07:16:06.858080 lgsap427-MUC obevp623 FND_Servers-AMS_TDS#3-769067 APP INFO <DeliveryMechanismPrintEmulator.cpp#70 TID#11> [PFX: 007KBQMMK40001:#######697012338989173#0#0:1-1 | 000100UV3GRDK4] virtual void DeliveryMechanismPrintEmulator::doEntryInit()
+3 / BE 
++0ms2024/04/22 07:16:06.858118 lgsap428-MUC obevp623 FND_Servers-AMS_TDS#3-769067 APP NOT <DBCallbackService.cpp#71 TID#11> [PFX: 007KBQMMK40001:#######697012338989173#0#0:1-1 | 000100UV3GRDK4] Invoke handleInboundMessage.
+4 / BE 
++0ms2024/04/22 07:16:06.858126 lgsap531-MUC obevp623 FND_Servers-AMS_TDS#3-769067 APP NOT <DBCallbackService.cpp#92 TID#11> [PFX: 007KBQMMK40001:#######697012338989173#0#0:1-1 | 000100UV3GRDK4] Indexed organization 'GA'.
+5 / BE 
++0ms2024/04/22 07:16:06.858130 lgsap427-MUC obevp623 FND_Servers-AMS_TDS#3-769067 APP INFO <EntMFNDCQ_11_3.cpp#165 TID#11> [PFX: 007KBQMMK40001:#######697012338989173#0#0:1-1 | 000100UV3GRDK4] Message version: MFNDCQ_11_3
+6 / BE 
++0.2ms2024/04/22 07:16:06.858283 lgsap428-MUC obevp623 FND_Servers-AMS_TDS#3-769067 APP NOT <OTFResourcesController.cpp#208 TID#11> [PFX: 007KBQMMK40001:#######697012338989173#0#0:1-1 | 000100UV3GRDK4] Set owning organization [GA].
+7 / BE 
++1.1ms2024/04/22 07:16:06.859396 lgsap531-MUC obevp623 FND_Servers-AMS_TDS#3-769067 APP INFO <DscGEML.cpp#67 TID#11> [PFX: 007KBQMMK40001:#######697012338989173#0#0:1-1 | 000100UV3GRDK4] aRecipient value : 
+8 / BE 
++0.2ms2024/04/22 07:16:06.859579 lgsap427-MUC obevp623 FND_Servers-AMS_TDS#3-769067 APP INFO <BORequest.cpp#324 TID#11> [PFX: 007KBQMMK40001:#######697012338989173#0#0:1-1 | 000100UV3GRDK4] added Job #1 to request MSX/GA/C512203F3E13/1
+9 / BE 
++0ms2024/04/22 07:16:06.859627 lgsap428-MUC obevp623 FND_Servers-AMS_TDS#3-769067 APP INFO <DscGFND.cpp#524 TID#11> [PFX: 007KBQMMK40001:#######697012338989173#0#0:1-1 | 000100UV3GRDK4] set OP_AIRLINE in doc technical data
+10 / BE 
++0ms2024/04/22 07:16:06.859641 lgsap531-MUC obevp623 FND_Servers-AMS_TDS#3-769067 APP INFO <DscGFND.cpp#542 TID#11> [PFX: 007KBQMMK40001:#######697012338989173#0#0:1-1 | 000100UV3GRDK4] Cannot find OP_AIRLINE in technical data, set value to organisation : GA
+11 / BE 
++0ms2024/04/22 07:16:06.859663 lgsap427-MUC obevp623 FND_Servers-AMS_TDS#3-769067 APP NOT <OTFResourcesController.cpp#208 TID#11> [PFX: 007KBQMMK40001:#######697012338989173#0#0:1-1 | 000100UV3GRDK4] Set owning organization [GA].
+12 / BE 
++0ms2024/04/22 07:16:06.859693 lgsap428-MUC obevp623 FND_Servers-AMS_TDS#3-769067 APP NOT <UscFormatAndDeliverV11.cpp#86 TID#11> [PFX: 007KBQMMK40001:#######697012338989173#0#0:1-1 | 000100UV3GRDK4] Indexed addressing format = 'EML'.
+13 / BE 
++0ms2024/04/22 07:16:06.859705 lgsap531-MUC obevp623 FND_Servers-AMS_TDS#3-769067 APP NOT <UscFormatAndDeliverV11.cpp#92 TID#11> [PFX: 007KBQMMK40001:#######697012338989173#0#0:1-1 | 000100UV3GRDK4] Indexed addressing mode = 'TO'.
+14 / BE 
++0ms2024/04/22 07:16:06.859709 lgsap427-MUC obevp623 FND_Servers-AMS_TDS#3-769067 APP NOT <UscFormatAndDeliverV11.cpp#96 TID#11> [PFX: 007KBQMMK40001:#######697012338989173#0#0:1-1 | 000100UV3GRDK4] Indexed recipient = '.OOJUCAYADRPAMGLAM@NC'.
+15 / BE 
++0ms2024/04/22 07:16:06.859718 lgsap428-MUC obevp623 FND_Servers-AMS_TDS#3-769067 APP INFO <SecurityObjectController.cpp#370 TID#11> [PFX: 007KBQMMK40001:#######697012338989173#0#0:1-1 | 000100UV3GRDK4] Retrieved Organisation : TPF_ONLY
+16 / BE 
++0ms2024/04/22 07:16:06.859729 lgsap531-MUC obevp623 FND_Servers-AMS_TDS#3-769067 APP INFO <UscFormatAndDeliverV11.cpp#117 TID#11> [PFX: 007KBQMMK40001:#######697012338989173#0#0:1-1 | 000100UV3GRDK4] Organisations are different <<< Organisation from DCX : TPF_ONLY <<< Organisation from OWN : GA .
+17 / BE 
++0ms2024/04/22 07:16:06.859767 lgsap427-MUC obevp623 FND_Servers-AMS_TDS#3-769067 APP NOT <UscResolve.cpp#80 TID#11> [PFX: 007KBQMMK40001:#######697012338989173#0#0:1-1 | 000100UV3GRDK4] Resolve request MSX/GA/C512203F3E13/1
+18 / BE 
++0ms2024/04/22 07:16:06.859796 lgsap428-MUC obevp623 FND_Servers-AMS_TDS#3-769067 APP INFO FUP <PushEventProxy.cpp#49 TID#11> [PFX: 007KBQMMK40001:#######697012338989173#0#0:1-1 | 000100UV3GRDK4] Start session
+19 / BE 
++0ms2024/04/22 07:16:06.859807 lgsap531-MUC obevp623 FND_Servers-AMS_TDS#3-769067 APP NOT <FollowUpController.cpp#79 TID#11> [PFX: 007KBQMMK40001:#######697012338989173#0#0:1-1 | 000100UV3GRDK4] FUP connection open
+20 / BE 
++0.1ms2024/04/22 07:16:06.859926 lgsap427-MUC obevp623 FND_Servers-AMS_TDS#3-769067 APP INFO FUP <PushEventProxy.cpp#212 TID#11> [PFX: 007KBQMMK40001:#######697012338989173#0#0:1-1 | 000100UV3GRDK4] storeRequest call
+21 / BE 
++0.3ms2024/04/22 07:16:06.860241 lgsap428-MUC obevp623 FND_Servers-AMS_TDS#3-769067 APP INFO FUP <UCGetCleaningDates.cpp#287 TID#11> [PFX: 007KBQMMK40001:#######697012338989173#0#0:1-1 | 000100UV3GRDK4] Rule found in UFDCLEAN with ID : 12102758
+22 / BE 
++0.1ms2024/04/22 07:16:06.860324 lgsap531-MUC obevp623 FND_Servers-AMS_TDS#3-769067 APP INFO FUP <UCGetCleaningDates.cpp#287 TID#11> [PFX: 007KBQMMK40001:#######697012338989173#0#0:1-1 | 000100UV3GRDK4] Rule found in UFDCLEAN with ID : 12102757
+23 / BE 
++0.1ms2024/04/22 07:16:06.860387 lgsap427-MUC obevp623 FND_Servers-AMS_TDS#3-769067 APP INFO FUP <UCGetCleaningDates.cpp#287 TID#11> [PFX: 007KBQMMK40001:#######697012338989173#0#0:1-1 | 000100UV3GRDK4] Rule found in UFDCLEAN with ID : 18276422
+24 / BE 
++0.2ms2024/04/22 07:16:06.860568 lgsap428-MUC obevp623 FND_Servers-AMS_TDS#3-769067 APP INFO FUP <FUP_ActivationConfig.cpp#134 TID#11> [PFX: 007KBQMMK40001:#######697012338989173#0#0:1-1 | 000100UV3GRDK4] No rule found into FUPACT for orga:GA,appli:MSX,docType:TTY
+25 / BE 
++0ms2024/04/22 07:16:06.860601 lgsap531-MUC obevp623 FND_Servers-AMS_TDS#3-769067 APP INFO FUP <PushEventProxy.cpp#225 TID#11> [PFX: 007KBQMMK40001:#######697012338989173#0#0:1-1 | 000100UV3GRDK4] Push store request
+26 / BE 
++0ms2024/04/22 07:16:06.860613 lgsap427-MUC obevp623 FND_Servers-AMS_TDS#3-769067 APP INFO FUP <UCSequencedPush.cpp#63 TID#11> [PFX: 007KBQMMK40001:#######697012338989173#0#0:1-1 | 000100UV3GRDK4] CARF: 000100UV3GRDK4
+27 / BE 
++2.8ms2024/04/22 07:16:06.863423 lgsap428-MUC obevp623 FND_Servers-AMS_TDS#3-769067 APP INFO <SecurityContextController.cpp#252 TID#11> [PFX: 007KBQMMK40001:#######697012338989173#0#0:1-1 | 000100UV3GRDK4] Failed to retrieve a valid Security Object
+28 / BE 
++2.5ms2024/04/22 07:16:06.865923 lgsap531-MUC obevp623 FND_Servers-AMS_TDS#3-769067 APP NOT FUP <UCSequencedPush.cpp#98 TID#11> [PFX: 007KBQMMK40001:#######697012338989173#0#0:1-1 | 000100UV3GRDK4] Item queued
+29 / BE 
++0ms2024/04/22 07:16:06.865948 lgsap427-MUC obevp623 FND_Servers-AMS_TDS#3-769067 APP INFO <BORequest.cpp#767 TID#11> [PFX: 007KBQMMK40001:#######697012338989173#0#0:1-1 | 000100UV3GRDK4] Stored FUP request context
+30 / BE 
++0.1ms2024/04/22 07:16:06.866012 lgsap428-MUC obevp623 FND_Servers-AMS_TDS#3-769067 APP INFO <GenericBZRProxy.cpp#952 TID#11> [PFX: 007KBQMMK40001:#######697012338989173#0#0:1-1 | 000100UV3GRDK4] ABR Call: findApplicableGeneric :  iRuleType[BUTB] iOrgaSP->get()[1A] iReleaseNumber[0] iEdifactImplementation[false]
+31 / BE 
++0ms2024/04/22 07:16:06.866037 lgsap531-MUC obevp623 FND_Servers-AMS_TDS#3-769067 APP INFO <GenericBZRProxy.cpp#349 TID#11> [PFX: 007KBQMMK40001:#######697012338989173#0#0:1-1 | 000100UV3GRDK4] Get POS from security object: 
+32 / BE 
++0ms2024/04/22 07:16:06.866065 lgsap427-MUC obevp623 FND_Servers-AMS_TDS#3-769067 APP INFO <GenericBZRProxy.cpp#374 TID#11> [PFX: 007KBQMMK40001:#######697012338989173#0#0:1-1 | 000100UV3GRDK4] Criterion List: { [ ORGA : GA ] [ APP : MSX ] [ POS : DEFAULT_VALUE ] [ USER : DEFAULT_VALUE ] [ DELIV_TYPE : EML ] [ DOC_TYPE : TTY ] [ DOC_SUBTYP : ADL ] }
+33 / BE 
++0ms2024/04/22 07:16:06.866091 lgsap428-MUC obevp623 FND_Servers-AMS_TDS#3-769067 MDW INFO ABR <IABRSuiteCacheRuleSearchImpl.cpp#196 TID#11> [PFX: 007KBQMMK40001:#######697012338989173#0#0:1-1 | 000100UV3GRDK4]
+ input values: BobInputValueGroup:
+
+BobInputValueInterface:
+
+ - id=0
+
+ - criteria: BobCriteriaInterface:
+
+APP=BobCriterionInterface: code:APP, value:MSX, level of match:0, is default:N, is ignored:N; DELIV_TYPE=BobCriterionInterface: code:DELIV_TYPE, value:EML, level of match:0, is default:N, is ignored:N; DOC_SUBTYP=BobCriterionInterface: code:DOC_SUBTYP, value:ADL, level of match:0, is default:N, is ignored:N; DOC_TYPE=BobCriterionInterface: code:DOC_TYPE, value:TTY, level of match:0, is default:N, is ignored:N; ORGA=BobCriterionInterface: code:ORGA, value:GA, level of match:0, is default:N, is ignored:N; POS=BobCriterionInterface: code:POS, value:DEFAULT_VALUE, level of match:0, is default:N, is ignored:N; USER=BobCriterionInterface: code:USER, value:DEFAULT_VALUE, level of match:0, is default:Y, is ignored:N; 
+
+ - rule types: 
+
+BobRuleTypeDefinitionInterface:
+
+ - def key: [BUTB, 1A, 0]
+
+ - owner: BobOwnerInterface: 
+
+BobOwnerWrapper: 
+
+BobOwner:
+
+- id: UNDEFINED
+
+- organization: 1A
+
+- application: TDS
+
+- sub-application: UNDEFINED
+
+- mkt Lss Appli: UNDEFINED
+
+- mkt Lss SubAppli: UNDEFINED
+
+- flg Lss Appli: UNDEFINED
+
+- flg Lss SubAppli: UNDEFINED
+
+- pos Lss Appli: UNDEFINED
+
+- pos Lss SubAppli: UNDEFINED
+
+- allow flg dup content: UNDEFINED
+
+- allow mkt dup content: UNDEFINED
+
+- allow pos dup content: UNDEFINED
+
+- flg deactivate is delete: UNDEFINED
+
+- bypass security for keywords: UNDEFINED
+
+- Lss Appli: UNDEFINED
+
+- Lss SubAppli: UNDEFINED
+
+
+
+ - level: 1
+34 / BE 
++0.1ms2024/04/22 07:16:06.866202 lgsap531-MUC obevp623 FND_Servers-AMS_TDS#3-769067 APP INFO <BusinessRulesController.cpp#501 TID#11> [PFX: 007KBQMMK40001:#######697012338989173#0#0:1-1 | 000100UV3GRDK4] Block Traffic Rule not matched
+35 / BE 
++0.1ms2024/04/22 07:16:06.866349 lgsap427-MUC obevp623 FND_Servers-AMS_TDS#3-769067 APP INFO <GenericBZRProxy.cpp#952 TID#11> [PFX: 007KBQMMK40001:#######697012338989173#0#0:1-1 | 000100UV3GRDK4] ABR Call: findApplicableGeneric :  iRuleType[DELSYS] iOrgaSP->get()[1A] iReleaseNumber[1] iEdifactImplementation[false]
+36 / BE 
++0ms2024/04/22 07:16:06.866369 lgsap428-MUC obevp623 FND_Servers-AMS_TDS#3-769067 APP INFO <GenericBZRProxy.cpp#349 TID#11> [PFX: 007KBQMMK40001:#######697012338989173#0#0:1-1 | 000100UV3GRDK4] Get POS from security object: 
+37 / BE 
++0ms2024/04/22 07:16:06.866394 lgsap531-MUC obevp623 FND_Servers-AMS_TDS#3-769067 APP INFO <GenericBZRProxy.cpp#374 TID#11> [PFX: 007KBQMMK40001:#######697012338989173#0#0:1-1 | 000100UV3GRDK4] Criterion List: { [ DELIV_TYPE : EML ] [ ORG : GA ] [ POS : DEFAULT_VALUE ] [ SEGREG_TYP : AMS ] [ EDS_IND : N ] [ APP : MSX ] [ PDH_IND : Y ] [ DOC_TYPE : TTY ] [ DOC_SUBTYP : ADL ] [ ROUT_DISCR : DEFAULT_VALUE ] [ CLAPP : DEFAULT_VALUE ] }
+38 / BE 
++0ms2024/04/22 07:16:06.866417 lgsap427-MUC obevp623 FND_Servers-AMS_TDS#3-769067 MDW INFO ABR <IABRSuiteCacheRuleSearchImpl.cpp#196 TID#11> [PFX: 007KBQMMK40001:#######697012338989173#0#0:1-1 | 000100UV3GRDK4]
+ input values: BobInputValueGroup:
+
+BobInputValueInterface:
+
+ - id=0
+
+ - criteria: BobCriteriaInterface:
+
+APP=BobCriterionInterface: code:APP, value:MSX, level of match:0, is default:N, is ignored:N; CLAPP=BobCriterionInterface: code:CLAPP, value:DEFAULT_VALUE, level of match:0, is default:Y, is ignored:N; DELIV_TYPE=BobCriterionInterface: code:DELIV_TYPE, value:EML, level of match:0, is default:N, is ignored:N; DOC_SUBTYP=BobCriterionInterface: code:DOC_SUBTYP, value:ADL, level of match:0, is default:N, is ignored:N; DOC_TYPE=BobCriterionInterface: code:DOC_TYPE, value:TTY, level of match:0, is default:N, is ignored:N; EDS_IND=BobCriterionInterface: code:EDS_IND, value:N, level of match:0, is default:N, is ignored:N; ORG=BobCriterionInterface: code:ORG, value:GA, level of match:0, is default:N, is ignored:N; PDH_IND=BobCriterionInterface: code:PDH_IND, value:Y, level of match:0, is default:N, is ignored:N; POS=BobCriterionInterface: code:POS, value:DEFAULT_VALUE, level of match:0, is default:N, is ignored:N; ROUT_DISCR=BobCriterionInterface: code:ROUT_DISCR, value:DEFAULT_VALUE, level of match:0, is default:Y, is ignored:N; SEGREG_TYP=BobCriterionInterface: code:SEGREG_TYP, value:AMS, level of match:0, is default:N, is ignored:N; 
+
+ - rule types: 
+
+BobRuleTypeDefinitionInterface:
+
+ - def key: [DELSYS, 1A, 1]
+
+ - owner: BobOwnerInterface: 
+
+BobOwnerWrapper: 
+
+BobOwner:
+
+- id: UNDEFINED
+
+- organization: 1A
+
+- application: TDS
+
+- sub-application: UNDEFINED
+
+- mkt Lss Appli: UNDEFINED
+
+- mkt Lss SubAppli: UNDEFINED
+
+- flg Lss Appli: UNDEFINED
+
+- flg Lss SubAppli: UNDEFINED
+
+- pos Lss Appli: UNDEFINED
+
+- pos Lss SubAppli: UNDEFINED
+
+- allow flg dup content: UNDEFINED
+
+- allow mkt dup content: UNDEFINED
+
+- allow pos dup content: UNDEFINED
+
+- flg deactivate is delete: UNDEFINED
+
+- bypass security for keywords: UNDEFINED
+
+- Lss Appli: UNDEFINED
+
+- Lss SubAppli: UNDEFINED
+
+
+
+ - level: 1
+39 / BE 
++0.2ms2024/04/22 07:16:06.866581 lgsap428-MUC obevp623 FND_Servers-AMS_TDS#3-769067 APP INFO <GenericBZRProxy.cpp#725 TID#11> [PFX: 007KBQMMK40001:#######697012338989173#0#0:1-1 | 000100UV3GRDK4] Content List: { [ ABR RuleID : 49496038 ] [ DELSYS : FNDEML ] [ DELSUBSY :  ] }
+40 / BE 
++0.1ms2024/04/22 07:16:06.866633 lgsap531-MUC obevp623 FND_Servers-AMS_TDS#3-769067 APP INFO <TaskResolveJob.cpp#214 TID#11> [PFX: 007KBQMMK40001:#######697012338989173#0#0:1-1 | 000100UV3GRDK4] GetDelsysRule - Selected Recipient System from ABR -  tds::tbx::getAsString(oDatabaseTypeSP)[EML] oDeliverySubsystem[] oMdcType[]
+41 / BE 
++0ms2024/04/22 07:16:06.866641 lgsap427-MUC obevp623 FND_Servers-AMS_TDS#3-769067 APP INFO <TaskResolveJob.cpp#650 TID#11> [PFX: 007KBQMMK40001:#######697012338989173#0#0:1-1 | 000100UV3GRDK4] IN allowed standby mode func
+42 / BE 
++0ms2024/04/22 07:16:06.866661 lgsap428-MUC obevp623 FND_Servers-AMS_TDS#3-769067 APP INFO <TaskResolveJob.cpp#248 TID#11> [PFX: 007KBQMMK40001:#######697012338989173#0#0:1-1 | 000100UV3GRDK4] Use of DbAdaptor kDbAdaptorTds
+43 / BE 
++0ms2024/04/22 07:16:06.866678 lgsap531-MUC obevp623 FND_Servers-AMS_TDS#3-769067 APP INFO <TaskResolveJob.cpp#833 TID#11> [PFX: 007KBQMMK40001:#######697012338989173#0#0:1-1 | 000100UV3GRDK4] Delsys output [FNDEML]
+44 / BE 
++0ms2024/04/22 07:16:06.866726 lgsap427-MUC obevp623 FND_Servers-AMS_TDS#3-769067 APP INFO <BOPrintServerParameters.cpp#286 TID#11> [PFX: 007KBQMMK40001:#######697012338989173#0#0:1-1 | 000100UV3GRDK4] Print Server Parameters retrieved from cache for Key [GA/TTY//MSX/]
+45 / BE 
++0ms2024/04/22 07:16:06.866757 lgsap428-MUC obevp623 FND_Servers-AMS_TDS#3-769067 APP INFO <RecipientDatabaseFactory.cpp#135 TID#11> [PFX: 007KBQMMK40001:#######697012338989173#0#0:1-1 | 000100UV3GRDK4] createRecipientDatabase - Proxy/Type[EML/EML] - DbAdaptors Device/DevSetup/PsdbDevice[1/1/1]
+46 / BE 
++0ms2024/04/22 07:16:06.866789 lgsap531-MUC obevp623 FND_Servers-AMS_TDS#3-769067 APP INFO <GenericBZRProxy.cpp#952 TID#11> [PFX: 007KBQMMK40001:#######697012338989173#0#0:1-1 | 000100UV3GRDK4] ABR Call: findApplicableGeneric :  iRuleType[RMFP] iOrgaSP->get()[1A] iReleaseNumber[0] iEdifactImplementation[false]
+47 / BE 
++0ms2024/04/22 07:16:06.866810 lgsap427-MUC obevp623 FND_Servers-AMS_TDS#3-769067 APP INFO <GenericBZRProxy.cpp#374 TID#11> [PFX: 007KBQMMK40001:#######697012338989173#0#0:1-1 | 000100UV3GRDK4] Criterion List: { [ DELIV_TYPE : EML ] [ ORG : GA ] [ OFF_ID : DEFAULT_VALUE ] [ CUSTAREA : DEFAULT_VALUE ] [ COMP : DEFAULT_VALUE ] }
+48 / BE 
++0ms2024/04/22 07:16:06.866823 lgsap428-MUC obevp623 FND_Servers-AMS_TDS#3-769067 MDW INFO ABR <IABRSuiteCacheRuleSearchImpl.cpp#196 TID#11> [PFX: 007KBQMMK40001:#######697012338989173#0#0:1-1 | 000100UV3GRDK4]
+ input values: BobInputValueGroup:
+
+BobInputValueInterface:
+
+ - id=0
+
+ - criteria: BobCriteriaInterface:
+
+COMP=BobCriterionInterface: code:COMP, value:DEFAULT_VALUE, level of match:0, is default:Y, is ignored:N; CUSTAREA=BobCriterionInterface: code:CUSTAREA, value:DEFAULT_VALUE, level of match:0, is default:Y, is ignored:N; DELIV_TYPE=BobCriterionInterface: code:DELIV_TYPE, value:EML, level of match:0, is default:N, is ignored:N; OFF_ID=BobCriterionInterface: code:OFF_ID, value:DEFAULT_VALUE, level of match:0, is default:Y, is ignored:N; ORG=BobCriterionInterface: code:ORG, value:GA, level of match:0, is default:N, is ignored:N; 
+
+ - rule types: 
+
+BobRuleTypeDefinitionInterface:
+
+ - def key: [RMFP, 1A, 0]
+
+ - owner: BobOwnerInterface: 
+
+BobOwnerWrapper: 
+
+BobOwner:
+
+- id: UNDEFINED
+
+- organization: 1A
+
+- application: TDS
+
+- sub-application: UNDEFINED
+
+- mkt Lss Appli: UNDEFINED
+
+- mkt Lss SubAppli: UNDEFINED
+
+- flg Lss Appli: UNDEFINED
+
+- flg Lss SubAppli: UNDEFINED
+
+- pos Lss Appli: UNDEFINED
+
+- pos Lss SubAppli: UNDEFINED
+
+- allow flg dup content: UNDEFINED
+
+- allow mkt dup content: UNDEFINED
+
+- allow pos dup content: UNDEFINED
+
+- flg deactivate is delete: UNDEFINED
+
+- bypass security for keywords: UNDEFINED
+
+- Lss Appli: UNDEFINED
+
+- Lss SubAppli: UNDEFINED
+
+
+
+ - level: 1
+49 / BE 
++0.1ms2024/04/22 07:16:06.866901 lgsap531-MUC obevp623 FND_Servers-AMS_TDS#3-769067 APP INFO <GenericBZRProxy.cpp#725 TID#11> [PFX: 007KBQMMK40001:#######697012338989173#0#0:1-1 | 000100UV3GRDK4] Content List: { [ ABR RuleID : 161723348 ] [ PROVID : relay-internal.amadeus.net:802 ] }
+50 / BE 
++0.1ms2024/04/22 07:16:06.866993 lgsap427-MUC obevp623 FND_Servers-AMS_TDS#3-769067 APP INFO <GenericBZRProxy.cpp#952 TID#11> [PFX: 007KBQMMK40001:#######697012338989173#0#0:1-1 | 000100UV3GRDK4] ABR Call: findApplicableGeneric :  iRuleType[SFC] iOrgaSP->get()[1A] iReleaseNumber[0] iEdifactImplementation[false]
+51 / BE 
++0ms2024/04/22 07:16:06.867011 lgsap428-MUC obevp623 FND_Servers-AMS_TDS#3-769067 APP INFO <GenericBZRProxy.cpp#349 TID#11> [PFX: 007KBQMMK40001:#######697012338989173#0#0:1-1 | 000100UV3GRDK4] Get POS from security object: 
+52 / BE 
++0ms2024/04/22 07:16:06.867027 lgsap531-MUC obevp623 FND_Servers-AMS_TDS#3-769067 APP INFO <GenericBZRProxy.cpp#374 TID#11> [PFX: 007KBQMMK40001:#######697012338989173#0#0:1-1 | 000100UV3GRDK4] Criterion List: { [ ORG : GA ] [ POS : DEFAULT_VALUE ] [ OFF_ID : DEFAULT_VALUE ] [ APP : MSX ] [ USER : DEFAULT_VALUE ] [ RES_MODE : FRM ] }
+53 / BE 
++0ms2024/04/22 07:16:06.867047 lgsap427-MUC obevp623 FND_Servers-AMS_TDS#3-769067 MDW INFO ABR <IABRSuiteCacheRuleSearchImpl.cpp#196 TID#11> [PFX: 007KBQMMK40001:#######697012338989173#0#0:1-1 | 000100UV3GRDK4]
+ input values: BobInputValueGroup:
+
+BobInputValueInterface:
+
+ - id=0
+
+ - criteria: BobCriteriaInterface:
+
+APP=BobCriterionInterface: code:APP, value:MSX, level of match:0, is default:N, is ignored:N; OFF_ID=BobCriterionInterface: code:OFF_ID, value:DEFAULT_VALUE, level of match:0, is default:Y, is ignored:N; ORG=BobCriterionInterface: code:ORG, value:GA, level of match:0, is default:N, is ignored:N; POS=BobCriterionInterface: code:POS, value:DEFAULT_VALUE, level of match:0, is default:N, is ignored:N; RES_MODE=BobCriterionInterface: code:RES_MODE, value:FRM, level of match:0, is default:N, is ignored:N; USER=BobCriterionInterface: code:USER, value:DEFAULT_VALUE, level of match:0, is default:Y, is ignored:N; 
+
+ - rule types: 
+
+BobRuleTypeDefinitionInterface:
+
+ - def key: [SFC, 1A, 0]
+
+ - owner: BobOwnerInterface: 
+
+BobOwnerWrapper: 
+
+BobOwner:
+
+- id: UNDEFINED
+
+- organization: 1A
+
+- application: TDS
+
+- sub-application: UNDEFINED
+
+- mkt Lss Appli: UNDEFINED
+
+- mkt Lss SubAppli: UNDEFINED
+
+- flg Lss Appli: UNDEFINED
+
+- flg Lss SubAppli: UNDEFINED
+
+- pos Lss Appli: UNDEFINED
+
+- pos Lss SubAppli: UNDEFINED
+
+- allow flg dup content: UNDEFINED
+
+- allow mkt dup content: UNDEFINED
+
+- allow pos dup content: UNDEFINED
+
+- flg deactivate is delete: UNDEFINED
+
+- bypass security for keywords: UNDEFINED
+
+- Lss Appli: UNDEFINED
+
+- Lss SubAppli: UNDEFINED
+
+
+
+ - level: 1
+54 / BE 
++0.1ms2024/04/22 07:16:06.867139 lgsap428-MUC obevp623 FND_Servers-AMS_TDS#3-769067 APP INFO <SenderRule.cpp#46 TID#11> [PFX: 007KBQMMK40001:#######697012338989173#0#0:1-1 | 000100UV3GRDK4] SenderRule::select - No rule found
+55 / BE 
++0ms2024/04/22 07:16:06.867158 lgsap531-MUC obevp623 FND_Servers-AMS_TDS#3-769067 APP INFO <RecipientDatabaseSystemProxy.cpp#105 TID#11> [PFX: 007KBQMMK40001:#######697012338989173#0#0:1-1 | 000100UV3GRDK4] Resolving recipients
+56 / BE 
++0ms2024/04/22 07:16:06.867181 lgsap427-MUC obevp623 FND_Servers-AMS_TDS#3-769067 APP NOT <BOOrderingConfiguration.cpp#190 TID#11> [PFX: 007KBQMMK40001:#######697012338989173#0#0:1-1 | 000100UV3GRDK4] DBFindDefault
+57 / BE 
++0.5ms2024/04/22 07:16:06.867707 lgsap642-MUC obevp623 FUP_NewEngine_TDS#3-765158 APP INFO FUP <EntNewEngine.cpp#148 TID#19> [PFX: 000100UV3GRDK4 | S] Deq. store request
+58 / BE 
++0ms2024/04/22 07:16:06.867744 lgsap234-MUC obevp623 FUP_NewEngine_TDS#3-765158 APP INFO FUP <CntAddress.cpp#113 TID#19> [PFX: 000100UV3GRDK4 | S] V: 2
+59 / BE 
++0ms2024/04/22 07:16:06.867760 lgsap631-MUC obevp623 FUP_NewEngine_TDS#3-765158 APP INFO FUP <CntAddress.cpp#113 TID#19> [PFX: 000100UV3GRDK4 | S] V: 2
+60 / BE 
++0ms2024/04/22 07:16:06.867783 lgsap642-MUC obevp623 FUP_NewEngine_TDS#3-765158 APP INFO FUP <CntInputDataRawData.cpp#195 TID#19> [PFX: 000100UV3GRDK4 | S] Unmarsh. RawData
+61 / BE 
++0ms2024/04/22 07:16:06.867828 lgsap234-MUC obevp623 FUP_NewEngine_TDS#3-765158 APP INFO FUP <EntNewEngine.cpp#161 TID#19> [PFX: 000100UV3GRDK4 | S] RId: MSX/GA/C512203F3E13/1
+62 / BE 
++0ms2024/04/22 07:16:06.867832 lgsap631-MUC obevp623 FUP_NewEngine_TDS#3-765158 APP INFO FUP <DbrFactory.cpp#95 TID#19> [PFX: 000100UV3GRDK4 | S] DbrFactory::setDbConnection
+63 / BE 
++0.8ms2024/04/22 07:16:06.868585 lgsap428-MUC obevp623 FND_Servers-AMS_TDS#3-769067 APP NOT <BOOrderingConfiguration.cpp#411 TID#11> [PFX: 007KBQMMK40001:#######697012338989173#0#0:1-1 | 000100UV3GRDK4] ordering list  is empty
+64 / BE 
++0.1ms2024/04/22 07:16:06.868645 lgsap531-MUC obevp623 FND_Servers-AMS_TDS#3-769067 APP INFO <TaskResolveDocuments.cpp#60 TID#11> [PFX: 007KBQMMK40001:#######697012338989173#0#0:1-1 | 000100UV3GRDK4] resolved document list size : 0
+65 / BE 
++0ms2024/04/22 07:16:06.868654 lgsap427-MUC obevp623 FND_Servers-AMS_TDS#3-769067 APP INFO <TaskResolveDocuments.cpp#95 TID#11> [PFX: 007KBQMMK40001:#######697012338989173#0#0:1-1 | 000100UV3GRDK4] Document not yet resolved or Shadow Job - Push Task for document resolution.
+66 / BE 
++0ms2024/04/22 07:16:06.868681 lgsap428-MUC obevp623 FND_Servers-AMS_TDS#3-769067 APP INFO <TaskResolveDocument.cpp#159 TID#11> [PFX: 007KBQMMK40001:#######697012338989173#0#0:1-1 | 000100UV3GRDK4] Data retrieval
+67 / BE 
++0ms2024/04/22 07:16:06.868724 lgsap531-MUC obevp623 FND_Servers-AMS_TDS#3-769067 APP INFO <GenericBZRProxy.cpp#952 TID#11> [PFX: 007KBQMMK40001:#######697012338989173#0#0:1-1 | 000100UV3GRDK4] ABR Call: findApplicableGeneric :  iRuleType[COPYMGT] iOrgaSP->get()[1A] iReleaseNumber[0] iEdifactImplementation[false]
+68 / BE 
++0ms2024/04/22 07:16:06.868760 lgsap427-MUC obevp623 FND_Servers-AMS_TDS#3-769067 APP INFO <GenericBZRProxy.cpp#374 TID#11> [PFX: 007KBQMMK40001:#######697012338989173#0#0:1-1 | 000100UV3GRDK4] Criterion List: { [ DELIV_TYPE : EML ] [ APP : MSX ] [ ORG : GA ] [ OFF_ID : DEFAULT_VALUE ] [ DOC_TYPE : TTY ] [ DOC_SUBTYP : ADL ] [ CUSTAREA : DEFAULT_VALUE ] [ COMP : DEFAULT_VALUE ] [ MISC1 : DEFAULT_VALUE ] [ MISC2 : DEFAULT_VALUE ] }
+69 / BE 
++0ms2024/04/22 07:16:06.868783 lgsap428-MUC obevp623 FND_Servers-AMS_TDS#3-769067 MDW INFO ABR <IABRSuiteCacheRuleSearchImpl.cpp#196 TID#11> [PFX: 007KBQMMK40001:#######697012338989173#0#0:1-1 | 000100UV3GRDK4]
+ input values: BobInputValueGroup:
+
+BobInputValueInterface:
+
+ - id=0
+
+ - criteria: BobCriteriaInterface:
+
+APP=BobCriterionInterface: code:APP, value:MSX, level of match:0, is default:N, is ignored:N; COMP=BobCriterionInterface: code:COMP, value:DEFAULT_VALUE, level of match:0, is default:Y, is ignored:N; CUSTAREA=BobCriterionInterface: code:CUSTAREA, value:DEFAULT_VALUE, level of match:0, is default:Y, is ignored:N; DELIV_TYPE=BobCriterionInterface: code:DELIV_TYPE, value:EML, level of match:0, is default:N, is ignored:N; DOC_SUBTYP=BobCriterionInterface: code:DOC_SUBTYP, value:ADL, level of match:0, is default:N, is ignored:N; DOC_TYPE=BobCriterionInterface: code:DOC_TYPE, value:TTY, level of match:0, is default:N, is ignored:N; MISC1=BobCriterionInterface: code:MISC1, value:DEFAULT_VALUE, level of match:0, is default:Y, is ignored:N; MISC2=BobCriterionInterface: code:MISC2, value:DEFAULT_VALUE, level of match:0, is default:Y, is ignored:N; OFF_ID=BobCriterionInterface: code:OFF_ID, value:DEFAULT_VALUE, level of match:0, is default:Y, is ignored:N; ORG=BobCriterionInterface: code:ORG, value:GA, level of match:0, is default:N, is ignored:N; 
+
+ - rule types: 
+
+BobRuleTypeDefinitionInterface:
+
+ - def key: [COPYMGT, 1A, 0]
+
+ - owner: BobOwnerInterface: 
+
+BobOwnerWrapper: 
+
+BobOwner:
+
+- id: UNDEFINED
+
+- organization: 1A
+
+- application: TDS
+
+- sub-application: UNDEFINED
+
+- mkt Lss Appli: UNDEFINED
+
+- mkt Lss SubAppli: UNDEFINED
+
+- flg Lss Appli: UNDEFINED
+
+- flg Lss SubAppli: UNDEFINED
+
+- pos Lss Appli: UNDEFINED
+
+- pos Lss SubAppli: UNDEFINED
+
+- allow flg dup content: UNDEFINED
+
+- allow mkt dup content: UNDEFINED
+
+- allow pos dup content: UNDEFINED
+
+- flg deactivate is delete: UNDEFINED
+
+- bypass security for keywords: UNDEFINED
+
+- Lss Appli: UNDEFINED
+
+- Lss SubAppli: UNDEFINED
+
+
+
+ - level: 1
+70 / BE 
++0.1ms2024/04/22 07:16:06.868882 lgsap531-MUC obevp623 FND_Servers-AMS_TDS#3-769067 APP INFO <GenericBZRProxy.cpp#952 TID#11> [PFX: 007KBQMMK40001:#######697012338989173#0#0:1-1 | 000100UV3GRDK4] ABR Call: findApplicableGeneric :  iRuleType[DELPARAM] iOrgaSP->get()[1A] iReleaseNumber[0] iEdifactImplementation[false]
+71 / BE 
++0ms2024/04/22 07:16:06.868916 lgsap427-MUC obevp623 FND_Servers-AMS_TDS#3-769067 APP INFO <GenericBZRProxy.cpp#374 TID#11> [PFX: 007KBQMMK40001:#######697012338989173#0#0:1-1 | 000100UV3GRDK4] Criterion List: { [ APP : MSX ] [ ORG : GA ] [ OFF_ID : DEFAULT_VALUE ] [ DOC_TYPE : TTY ] [ DOC_SUBTYP : ADL ] [ MISC2 : DEFAULT_VALUE ] [ CUSTAREA : DEFAULT_VALUE ] [ COMP : DEFAULT_VALUE ] [ DELIV_TYPE : EML ] [ PROVIDER : DEFAULT_VALUE ] }
+72 / BE 
++0ms2024/04/22 07:16:06.868936 lgsap428-MUC obevp623 FND_Servers-AMS_TDS#3-769067 MDW INFO ABR <IABRSuiteCacheRuleSearchImpl.cpp#196 TID#11> [PFX: 007KBQMMK40001:#######697012338989173#0#0:1-1 | 000100UV3GRDK4]
+ input values: BobInputValueGroup:
+
+BobInputValueInterface:
+
+ - id=0
+
+ - criteria: BobCriteriaInterface:
+
+APP=BobCriterionInterface: code:APP, value:MSX, level of match:0, is default:N, is ignored:N; COMP=BobCriterionInterface: code:COMP, value:DEFAULT_VALUE, level of match:0, is default:Y, is ignored:N; CUSTAREA=BobCriterionInterface: code:CUSTAREA, value:DEFAULT_VALUE, level of match:0, is default:Y, is ignored:N; DELIV_TYPE=BobCriterionInterface: code:DELIV_TYPE, value:EML, level of match:0, is default:N, is ignored:N; DOC_SUBTYP=BobCriterionInterface: code:DOC_SUBTYP, value:ADL, level of match:0, is default:N, is ignored:N; DOC_TYPE=BobCriterionInterface: code:DOC_TYPE, value:TTY, level of match:0, is default:N, is ignored:N; MISC2=BobCriterionInterface: code:MISC2, value:DEFAULT_VALUE, level of match:0, is default:Y, is ignored:N; OFF_ID=BobCriterionInterface: code:OFF_ID, value:DEFAULT_VALUE, level of match:0, is default:Y, is ignored:N; ORG=BobCriterionInterface: code:ORG, value:GA, level of match:0, is default:N, is ignored:N; PROVIDER=BobCriterionInterface: code:PROVIDER, value:DEFAULT_VALUE, level of match:0, is default:Y, is ignored:N; 
+
+ - rule types: 
+
+BobRuleTypeDefinitionInterface:
+
+ - def key: [DELPARAM, 1A, 0]
+
+ - owner: BobOwnerInterface: 
+
+BobOwnerWrapper: 
+
+BobOwner:
+
+- id: UNDEFINED
+
+- organization: 1A
+
+- application: TDS
+
+- sub-application: UNDEFINED
+
+- mkt Lss Appli: UNDEFINED
+
+- mkt Lss SubAppli: UNDEFINED
+
+- flg Lss Appli: UNDEFINED
+
+- flg Lss SubAppli: UNDEFINED
+
+- pos Lss Appli: UNDEFINED
+
+- pos Lss SubAppli: UNDEFINED
+
+- allow flg dup content: UNDEFINED
+
+- allow mkt dup content: UNDEFINED
+
+- allow pos dup content: UNDEFINED
+
+- flg deactivate is delete: UNDEFINED
+
+- bypass security for keywords: UNDEFINED
+
+- Lss Appli: UNDEFINED
+
+- Lss SubAppli: UNDEFINED
+
+
+
+ - level: 1
+73 / BE 
++0.1ms2024/04/22 07:16:06.869023 lgsap531-MUC obevp623 FND_Servers-AMS_TDS#3-769067 APP INFO <DeliveryParametersRule.cpp#102 TID#11> [PFX: 007KBQMMK40001:#######697012338989173#0#0:1-1 | 000100UV3GRDK4] No rule found
+74 / BE 
++0ms2024/04/22 07:16:06.869041 lgsap427-MUC obevp623 FND_Servers-AMS_TDS#3-769067 APP INFO <BusinessRulesController.cpp#1505 TID#11> [PFX: 007KBQMMK40001:#######697012338989173#0#0:1-1 | 000100UV3GRDK4] No flavor provided, skipping copy management
+75 / BE 
++0ms2024/04/22 07:16:06.869079 lgsap428-MUC obevp623 FND_Servers-AMS_TDS#3-769067 APP INFO <TaskResolveDocuments.cpp#171 TID#11> [PFX: 007KBQMMK40001:#######697012338989173#0#0:1-1 | 000100UV3GRDK4] Job #1 is OK, will not resolve the other ones
+76 / BE 
++0ms2024/04/22 07:16:06.869090 lgsap531-MUC obevp623 FND_Servers-AMS_TDS#3-769067 APP NOT <RecipientDatabaseSystemProxy.cpp#131 TID#11> [PFX: 007KBQMMK40001:#######697012338989173#0#0:1-1 | 000100UV3GRDK4] Resolve is complete, 1 job created.
+77 / BE 
++0ms2024/04/22 07:16:06.869102 lgsap427-MUC obevp623 FND_Servers-AMS_TDS#3-769067 APP INFO <BOGenericJob.cpp#223 TID#11> [PFX: 007KBQMMK40001:#######697012338989173#0#0:1-1 | 000100UV3GRDK4] Update job of type: EML
+78 / BE 
++0ms2024/04/22 07:16:06.869141 lgsap428-MUC obevp623 FND_Servers-AMS_TDS#3-769067 APP INFO <SecurityObjectController.cpp#370 TID#11> [PFX: 007KBQMMK40001:#######697012338989173#0#0:1-1 | 000100UV3GRDK4] Retrieved Organisation : TPF_ONLY
+79 / BE 
++0ms2024/04/22 07:16:06.869158 lgsap531-MUC obevp623 FND_Servers-AMS_TDS#3-769067 APP INFO <BOGenericJob.cpp#274 TID#11> [PFX: 007KBQMMK40001:#######697012338989173#0#0:1-1 | 000100UV3GRDK4] void FND::BOGenericJob::updateEmailJob() - aApplication[MSX] aOrganisationSP[TPF_ONLY] aOfficeNameSP[]
+80 / BE 
++0ms2024/04/22 07:16:06.869171 lgsap427-MUC obevp623 FND_Servers-AMS_TDS#3-769067 APP NOT <RecipientDatabaseSystemProxy.cpp#187 TID#11> [PFX: 007KBQMMK40001:#######697012338989173#0#0:1-1 | 000100UV3GRDK4] Correlation Id: .OOJUCAYADRPAMGLAM@NC
+81 / BE 
++0ms2024/04/22 07:16:06.869188 lgsap428-MUC obevp623 FND_Servers-AMS_TDS#3-769067 APP INFO <RecipientDatabaseSystemProxy.cpp#298 TID#11> [PFX: 007KBQMMK40001:#######697012338989173#0#0:1-1 | 000100UV3GRDK4] getOutputFromDelsys : FNDEML
+82 / BE 
++0ms2024/04/22 07:16:06.869197 lgsap531-MUC obevp623 FND_Servers-AMS_TDS#3-769067 APP INFO <BORequest.cpp#446 TID#11> [PFX: 007KBQMMK40001:#######697012338989173#0#0:1-1 | 000100UV3GRDK4] FUP addJob bypassed, generating dummy context
+83 / BE 
++0.2ms2024/04/22 07:16:06.869350 lgsap427-MUC obevp623 FND_Servers-AMS_TDS#3-769067 APP INFO <BORequest.cpp#570 TID#11> [PFX: 007KBQMMK40001:#######697012338989173#0#0:1-1 | 000100UV3GRDK4] request status is OK
+84 / BE 
++0ms2024/04/22 07:16:06.869366 lgsap428-MUC obevp623 FND_Servers-AMS_TDS#3-769067 APP INFO <BORequest.cpp#185 TID#11> [PFX: 007KBQMMK40001:#######697012338989173#0#0:1-1 | 000100UV3GRDK4] void FND::BORequest::sendFUPNotification()
+85 / STATS 
++0ms2024/04/22 07:16:06.869392 lgsap318-MUC obevp623 FND_Servers-AMS_TDS#3-769067 APP STAT <BOJob.cpp#913 TID#11> [PFX: 007KBQMMK40001:#######697012338989173#0#0:1-1 | 000100UV3GRDK4] CSSLogsTrace: RequestID:MSX/GA/C512203F3E13/1,Request_TimeStamp:22:04:2024-07:16:06,DeliverySystem:EML,Recipient_Number:.OOJUCAYADRPAMGLAM@NC,Provider:FND Internal,DeliveryTime:N/A,Status-Code:CONFIRMEDRECIPIENT-OK,ErrorCode:N/A,ErrorDescription:N/A
+86 / STATS 
++0ms2024/04/22 07:16:06.869413 lgsap418-MUC obevp623 FND_Servers-AMS_TDS#3-769067 APP STAT <BOJob.cpp#913 TID#11> [PFX: 007KBQMMK40001:#######697012338989173#0#0:1-1 | 000100UV3GRDK4] CSSLogsTrace: RequestID:MSX/GA/C512203F3E13/1,Request_TimeStamp:22:04:2024-07:16:06,DeliverySystem:EML,Recipient_Number:.OOJUCAYADRPAMGLAM@NC,Provider:FND Internal,DeliveryTime:N/A,Status-Code:SPOOLING-OK,ErrorCode:N/A,ErrorDescription:N/A
+87 / BE 
++0ms2024/04/22 07:16:06.869449 lgsap531-MUC obevp623 FND_Servers-AMS_TDS#3-769067 APP NOT <BOJob.cpp#1038 TID#11> [PFX: 007KBQMMK40001:#######697012338989173#0#0:1-1 | 000100UV3GRDK4] Correlation Id: .OOJUCAYADRPAMGLAM@NC
+88 / BE 
++0ms2024/04/22 07:16:06.869459 lgsap427-MUC obevp623 FND_Servers-AMS_TDS#3-769067 APP INFO <BOJob.cpp#1041 TID#11> [PFX: 007KBQMMK40001:#######697012338989173#0#0:1-1 | 000100UV3GRDK4] formatting job status is OK
+89 / BE 
++0ms2024/04/22 07:16:06.869466 lgsap428-MUC obevp623 FND_Servers-AMS_TDS#3-769067 APP INFO <BORequest.cpp#557 TID#11> [PFX: 007KBQMMK40001:#######697012338989173#0#0:1-1 | 000100UV3GRDK4] request status is OK
+90 / BE 
++0ms2024/04/22 07:16:06.869504 lgsap531-MUC obevp623 FND_Servers-AMS_TDS#3-769067 APP INFO <UscFormatAndDeliverV11.cpp#194 TID#11> [PFX: 007KBQMMK40001:#######697012338989173#0#0:1-1 | 000100UV3GRDK4] Push 1 formatting job(s) in LQS.
+91 / BE 
++0.1ms2024/04/22 07:16:06.869605 lgsap427-MUC obevp623 FND_Servers-AMS_TDS#3-769067 APP NOT <QFCQueueController.h#53 TID#11> [PFX: 007KBQMMK40001:#######697012338989173#0#0:1-1 | 000100UV3GRDK4]  Correlation Id : .OOJUCAYADRPAMGLAM@NC
+92 / BE 
++0.4ms2024/04/22 07:16:06.870008 lgsap428-MUC obevp623 FND_Servers-AMS_TDS#3-769067 APP INFO <BORequestID.cpp#69 TID#11> [PFX: 007KBQMMK40001:#######697012338989173#0#0:1-1 | 000100UV3GRDK4] BORequestID::kSerializationVersion = 2
+93 / BE 
++0.4ms2024/04/22 07:16:06.870430 lgsap531-MUC obevp623 FND_Servers-AMS_TDS#3-769067 APP INFO <SerializationController.h#142 TID#11> [PFX: 007KBQMMK40001:#######697012338989173#0#0:1-1 | 000100UV3GRDK4] Duration of serialize: 809 us
+94 / BE 
++0.2ms2024/04/22 07:16:06.870644 lgsap427-MUC obevp623 FND_Servers-AMS_TDS#3-769067 APP NOT <QFCQueueController.cpp#47 TID#11> [PFX: 007KBQMMK40001:#######697012338989173#0#0:1-1 | 000100UV3GRDK4] Enqueue item CARF=000100UV3GRDK4 in queue FMT_JOB_AMS
+95 / BE 
++0.3ms2024/04/22 07:16:06.870972 lgsap428-MUC obevp623 FND_Servers-AMS_TDS#3-769067 APP INFO <SerializationController.h#142 TID#11> [PFX: 007KBQMMK40001:#######697012338989173#0#0:1-1 | 000100UV3GRDK4] Duration of serialize: 280 us
+96 / BE 
++0ms2024/04/22 07:16:06.871018 lgsap531-MUC obevp623 FND_Servers-AMS_TDS#3-769067 APP INFO <QFCQueueController.cpp#148 TID#11> [PFX: 007KBQMMK40001:#######697012338989173#0#0:1-1 | 000100UV3GRDK4] Message size: 3327
+97 / BE 
++0ms2024/04/22 07:16:06.871036 lgsap427-MUC obevp623 FND_Servers-AMS_TDS#3-769067 APP INFO <SecurityContextController.cpp#252 TID#11> [PFX: 007KBQMMK40001:#######697012338989173#0#0:1-1 | 000100UV3GRDK4] Failed to retrieve a valid Security Object
+98 / BE 
++1.6ms2024/04/22 07:16:06.872635 lgsap428-MUC obevp623 FND_Servers-AMS_TDS#3-769067 APP INFO <QFCQueueController.cpp#175 TID#11> [PFX: 007KBQMMK40001:#######697012338989173#0#0:1-1 | 000100UV3GRDK4] Duration of lqsPush: 1989 us
+99 / BE 
++0ms2024/04/22 07:16:06.872650 lgsap531-MUC obevp623 FND_Servers-AMS_TDS#3-769067 APP INFO <QFCQueueController.cpp#178 TID#11> [PFX: 007KBQMMK40001:#######697012338989173#0#0:1-1 | 000100UV3GRDK4] Queued item #316365823 in queue FMT_JOB_AMS
+100 / BE 
++0ms2024/04/22 07:16:06.872659 lgsap427-MUC obevp623 FND_Servers-AMS_TDS#3-769067 APP INFO <UscFormatAndDeliverV11.cpp#271 TID#11> [PFX: 007KBQMMK40001:#######697012338989173#0#0:1-1 | 000100UV3GRDK4] Job #1 is OK, pushed into LQS.FMT_JOB_AMS
+101 / BE 
++1.2ms2024/04/22 07:16:06.873867 lgsap428-MUC obevp623 FND_Servers-AMS_TDS#3-769067 MDW INFO <ServiceDef.cpp#307 TID#11> [PFX: 007KBQMMK40001:#######697012338989173#0#0:1-1 | 000100UV3GRDK4] Buffer won't be converted as its current charset is unknown.
+102 / BE 
++0.1ms2024/04/22 07:16:06.873919 lgsap531-MUC obevp623 FND_Servers-AMS_TDS#3-769067 MDW INFO <SenderBaseImpl.cpp#330 TID#11> [PFX: 007KBQMMK40001:#######697012338989173#0#0:1-1 | 000100UV3GRDK4] >>>> Enqueuing reply in BE: MFNDCR [ - Remote ID: 00F462MK99 - Local ID: 007KBQMMK4 - Sequence Number: 1 - Routing Address:  - Reverse Routing Address:  - Len=0] - TypeB in backend FND_Servers-AMS_TDS backend ID: BE2H4WHR20V4QA6
+103 / BE 
++0ms2024/04/22 07:16:06.873960 lgsap427-MUC obevp623 FND_Servers-AMS_TDS#3-769067 APP INFO <OTFResourcesController.cpp#551 TID#11> [PFX: 007KBQMMK40001:#######697012338989173#0#0:1-1 | 000100UV3GRDK4] No asynchronous message to send
+104 / BE 
++0ms2024/04/22 07:16:06.873969 lgsap428-MUC obevp623 FND_Servers-AMS_TDS#3-769067 APP INFO <OTFResourcesController.cpp#551 TID#11> [PFX: 007KBQMMK40001:#######697012338989173#0#0:1-1 | 000100UV3GRDK4] No asynchronous message to send
+105 / BE 
++0.1ms2024/04/22 07:16:06.874053 lgsap531-MUC obevp623 FND_Servers-AMS_TDS#3-769067 APP INFO FUP <PushEventProxy.cpp#94 TID#11> [PFX: 007KBQMMK40001:#######697012338989173#0#0:1-1 | 000100UV3GRDK4] All events pushed
+106 / FE 
+2024/04/22 07:16:06.874070 lgsap530-MUC obevp623 FE12TYZPGXE2LJK-759074 [PFX: 00F462MK990001:#######697012338989173#0#0:1-1] RECEIVER: Nb=26481884 Len=543
+UNB+IATB:1+1ASRTDMAMS+MSX+240422:0716+00F462MK990001+007KBQMMK40001++T'
+UNH+1+MFNDCR:11:3:1A+000100UV3GRDK4'
+DCX+304+<DCC VERS="1.0"><MW><UKEY VAL="#######697012338989173#0#0" TRXNB="1-1" PAR="T07CGUSYC$BF1KN5DM5PARZ5J1"/><SAP NAME="1ASIMSX"/><DYNR><PEAKTK TYPE="AIRIT" VAL="MSX-PK2"/></DYNR></MW><TRX><SRC IP="172.25.16.148:58448"/></TRX><CALL><CLIENT TYPE="APP" NAME="AML" PAAS="MUC" PHASE="PRD" PEAK="2"/></CALL></DCC>'
+FND+EML+MSX/GA/C512203F3E13/1'
+RAD++O'
+EML+EML:.OOJUCAYADRPAMGLAM@NC:TO'
+DCM++BDY:TTY:ADL'
+RAD++O'
+UNT+8+1'
+UNZ+1+00F462MK990001'
+107 / STATS 
++0.1ms2024/04/22 07:16:06.874199 lgsap231-MUC obevp623 FND_Servers-AMS_TDS#3-769067 APP STAT <Entry.cpp#130 TID#11> [PFX: 007KBQMMK40001:#######697012338989173#0#0:1-1 | 000100UV3GRDK4] virtual memory size: 1174085632; delta: 0
+108 / STATS 
++0ms2024/04/22 07:16:06.874242 lgsap418-MUC obevp623 FND_Servers-AMS_TDS#3-769067 MDW STAT <ServiceObject.cpp#80 TID#11> [PFX: 007KBQMMK40001:#######697012338989173#0#0:1-1 | 000100UV3GRDK4] Perf: MFNDCQ_11_3_1AFND 12246984.856299 17 12 2 0 1 0 0 0 0 -1 0 0 0 174 0 | GA | 
+109 / BE 
++0.6ms2024/04/22 07:16:06.874823 lgsap532-MUC obevp623 FND_Formatter-AMS_TDS#3-763186 APP NOT <QFCQueueController.cpp#221 TID#20> [PFX: 000100UV3GRDK4 | 316365823] Defined PFX from CARF = '000100UV3GRDK4' and LQS message id = '316365823'.
+110 / BE 
++0ms2024/04/22 07:16:06.874834 lgsap253-MUC obevp623 FND_Formatter-AMS_TDS#3-763186 APP NOT <OTFResourcesController.cpp#208 TID#20> [PFX: 000100UV3GRDK4 | 316365823] Set owning organization [GA].
+111 / BE 
++0.4ms2024/04/22 07:16:06.875277 lgsap640-MUC obevp623 FND_Formatter-AMS_TDS#3-763186 APP INFO <SerializationController.h#210 TID#20> [PFX: 000100UV3GRDK4 | 316365823] Duration of unserialize: 421 us
+112 / BE 
++0.2ms2024/04/22 07:16:06.875466 lgsap532-MUC obevp623 FND_Formatter-AMS_TDS#3-763186 APP INFO <SecurityObjectController.cpp#59 TID#20> [PFX: 000100UV3GRDK4 | 316365823] SecurityObjectController Init called: false
+113 / BE 
++0ms2024/04/22 07:16:06.875485 lgsap253-MUC obevp623 FND_Formatter-AMS_TDS#3-763186 APP INFO <SecurityObjectController.cpp#173 TID#20> [PFX: 000100UV3GRDK4 | 316365823] Security object was invalid (no DCX/no ORG or invalid office id) - GAC will not be initialized
+114 / BE 
++0ms2024/04/22 07:16:06.875495 lgsap640-MUC obevp623 FND_Formatter-AMS_TDS#3-763186 APP INFO <QFCQueueController.cpp#270 TID#20> [PFX: 000100UV3GRDK4 | 316365823] Duration of lqsPop: 677 us
+115 / BE 
++0.2ms2024/04/22 07:16:06.875740 lgsap532-MUC obevp623 FND_Formatter-AMS_TDS#3-763186 APP INFO <BORequestID.cpp#69 TID#20> [PFX: 000100UV3GRDK4 | 316365823] BORequestID::kSerializationVersion = 2
+116 / BE 
++0.4ms2024/04/22 07:16:06.876174 lgsap253-MUC obevp623 FND_Formatter-AMS_TDS#3-763186 APP INFO <SerializationController.h#210 TID#20> [PFX: 000100UV3GRDK4 | 316365823] Duration of unserialize: 625 us
+117 / BE 
++0ms2024/04/22 07:16:06.876223 lgsap640-MUC obevp623 FND_Formatter-AMS_TDS#3-763186 APP INFO <BOJob.cpp#1002 TID#20> [PFX: 000100UV3GRDK4 | 316365823] BOJob::LQSPop - RequestId[MSX/GA/C512203F3E13/1] JobId[1] aJobType[EML] aTTL[6000000] aElapsedTime/1000[18]
+118 / BE 
++0.1ms2024/04/22 07:16:06.876357 lgsap532-MUC obevp623 FND_Formatter-AMS_TDS#3-763186 APP INFO FUP <PushEventProxy.cpp#49 TID#20> [PFX: 000100UV3GRDK4 | 316365823] Start session
+119 / BE 
++0ms2024/04/22 07:16:06.876372 lgsap253-MUC obevp623 FND_Formatter-AMS_TDS#3-763186 APP NOT <FollowUpController.cpp#79 TID#20> [PFX: 000100UV3GRDK4 | 316365823] FUP connection open
+120 / BE 
++0ms2024/04/22 07:16:06.876383 lgsap640-MUC obevp623 FND_Formatter-AMS_TDS#3-763186 APP INFO <TaskFormatJob.cpp#83 TID#20> [PFX: 000100UV3GRDK4 | 316365823] Job formatting
+121 / BE 
++0ms2024/04/22 07:16:06.876407 lgsap532-MUC obevp623 FND_Formatter-AMS_TDS#3-763186 APP INFO <TaskPreFormatDocument.cpp#141 TID#20> [PFX: 000100UV3GRDK4 | 316365823] No preformatting required
+122 / BE 
++0ms2024/04/22 07:16:06.876419 lgsap253-MUC obevp623 FND_Formatter-AMS_TDS#3-763186 APP INFO <TaskPreFormatDocument.cpp#327 TID#20> [PFX: 000100UV3GRDK4 | 316365823] Preformatted document uncompression enabled
+123 / BE 
++0.1ms2024/04/22 07:16:06.876475 lgsap640-MUC obevp623 FND_Formatter-AMS_TDS#3-763186 APP INFO <JFSAdapter.cpp#473 TID#20> [PFX: 000100UV3GRDK4 | 316365823] Encoding NasSettings
+124 / BE 
++0ms2024/04/22 07:16:06.876504 lgsap532-MUC obevp623 FND_Formatter-AMS_TDS#3-763186 APP INFO <JFSAdapter.cpp#853 TID#20> [PFX: 000100UV3GRDK4 | 316365823] PreviousValue of OTF var : , Options Param size : 0
+125 / BE 
++0ms2024/04/22 07:16:06.876532 lgsap253-MUC obevp623 FND_Formatter-AMS_TDS#3-763186 APP INFO <JFSAdapter.cpp#90 TID#20> [PFX: 000100UV3GRDK4 | 316365823] Do not use NAS/ObjectStore to call JFS
+126 / BE 
++0ms2024/04/22 07:16:06.876573 lgsap640-MUC obevp623 FND_Formatter-AMS_TDS#3-763186 APP INFO FMT <TaskJFSCaller.cpp#63 TID#20> [PFX: 000100UV3GRDK4 | 316365823] Beginning of the preTask for the task JFS caller 
+127 / BE 
++0ms2024/04/22 07:16:06.876585 lgsap532-MUC obevp623 FND_Formatter-AMS_TDS#3-763186 APP INFO FMT <TaskJFSFormatting.cpp#102 TID#20> [PFX: 000100UV3GRDK4 | 316365823] Beginning of the preTask for the mother task JFS Formatting 
+128 / BE 
++0ms2024/04/22 07:16:06.876590 lgsap253-MUC obevp623 FND_Formatter-AMS_TDS#3-763186 APP INFO FMT <JFSController.cpp#214 TID#20> [PFX: 000100UV3GRDK4 | 316365823] Processing an email formatting with JFS.
+129 / BE 
++0ms2024/04/22 07:16:06.876609 lgsap640-MUC obevp623 FND_Formatter-AMS_TDS#3-763186 APP INFO FMT <SessionController.cpp#96 TID#20> [PFX: 000100UV3GRDK4 | 316365823] Traffic segregation for application: MSX
+130 / BE 
++0ms2024/04/22 07:16:06.876632 lgsap532-MUC obevp623 FND_Formatter-AMS_TDS#3-763186 APP INFO FMT <JFSController.cpp#445 TID#20> [PFX: 000100UV3GRDK4 | 316365823] Modifying Formatting Request - begin
+131 / BE 
++0ms2024/04/22 07:16:06.876666 lgsap253-MUC obevp623 FND_Formatter-AMS_TDS#3-763186 APP INFO FMT <JFSController.cpp#488 TID#20> [PFX: 000100UV3GRDK4 | 316365823] Modifying Formatting Request - end
+132 / BE 
++0ms2024/04/22 07:16:06.876697 lgsap640-MUC obevp623 FND_Formatter-AMS_TDS#3-763186 APP INFO FMT <DscJFSCommon.cpp#333 TID#20> [PFX: 000100UV3GRDK4 | 316365823] Character encoding: UTF-8
+133 / BE 
++0ms2024/04/22 07:16:06.876720 lgsap532-MUC obevp623 FND_Formatter-AMS_TDS#3-763186 APP INFO FMT <JFSController.cpp#280 TID#20> [PFX: 000100UV3GRDK4 | 316365823] Synchronous call to JFS.
+134 / BE 
++0ms2024/04/22 07:16:06.876727 lgsap253-MUC obevp623 FND_Formatter-AMS_TDS#3-763186 APP INFO FMT <WebServiceJFSController.cpp#96 TID#20> [PFX: 000100UV3GRDK4 | 316365823] Sending synchronous query to 1ASIXFSXEDG2
+135 / BE 
++0ms2024/04/22 07:16:06.876771 lgsap640-MUC obevp623 FND_Formatter-AMS_TDS#3-763186 MDW INFO <ServiceDef.cpp#307 TID#20> [PFX: 000100UV3GRDK4 | 316365823] Buffer won't be converted as its current charset is unknown.
+136 / FE 
+2024/04/22 07:16:06.876969 lgsap629-MUC obevp623 FE12TYZPGXE2LJK-759074 [PFX: 00IPJ29RCF0001:6SMM0NRFFS8Q10GE9VB0ZM3OF0:1-1-2-1] RECEIVER: Nb=6865540 Len=2218
+<soap:Envelope xmlns:soap="http://www.w3.org/2003/05/soap-envelope" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:ds="http://www.w3.org/2000/09/xmldsig#" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://gcnet/Intranet/cgi-bin/1AXML.xsd">
+<soap:Header xmlns="http://www.amadeus.net/1axml-msg/schema/msg-header-1_0.xsd">
+<MessageHeader ResponseRequested="true" Terminate="true" Reverse="true" id="000100UV3GRDK4" version="1.0" soap:mustUnderstand="1">
+<From>1A0TDS</From>
+<To>1ASIXFSXEDG2</To>
+<TimeStamp>
+<GenerationTime>2024-04-22T07:16:06Z</GenerationTime>
+</TimeStamp>
+<FromRef>
+<ID>00IPJ29RCF</ID>
+<SequenceNb>1</SequenceNb>
+</FromRef>
+<Service version="" id="JavaFormattingServer">
+<name>EmailFormattingQuery</name>
+</Service>
+<ExtendedData>
+<DCC VERS="1.0">
+<MW>
+<UKEY VAL="6SMM0NRFFS8Q10GE9VB0ZM3OF0" TRXNB="1-1-2-1" PAR="T07CGUSYC$BF1KN5DM5PARZ5J1" DPA="#######697012338989173#0#0" />
+<SAP NAME="1ASIMSX" />
+<DYNR>
+<PEAKTK TYPE="AIRIT" VAL="MSX-PK2" />
+<PEAKTK TYPE="AIRIT" VAL="JFSPK7" ACTION="O" />
+</DYNR>
+</MW>
+<TRX>
+<SRC IP="172.25.16.148:58448" />
+</TRX>
+<CALL>
+<CLIENT TYPE="APP" NAME="TDS" PAAS="MUC" PHASE="PRD" PEAK="7" />
+</CALL>
+</DCC>
+</ExtendedData>
+</MessageHeader>
+</soap:Header>
+<soap:Body>
+<EmailFormattingQuery xmlns="http://JavaFormattingServer" environment="PRD" correlatorId="000100UV3GRDK4" TO=".uaanycmmocp@jodrgaal" subject="Message sent from AMS">
+<context isInPreviewMode="false" organization="GA" />
+<optionsSetup>
+<properties key="engineTimeout" value="58" />
+<properties key="killLongProcess" value="True" />
+</optionsSetup>
+<nasSettings sizeNAS="1" sizeReject="15728640" maxConnectorSize="8000000" useNasForReply="false" nasPeak="NAS1" />
+<bodyPart>
+<preFormattedBodyPart>
+<file name="" contentType="text/plain">
+<data charset="UTF-8" encoding="base64" compressionType="none" unzippedSize="172" zippedSize="172">QURMDQpHQTMwNC8yNEFQUiBDR0sgUEFSVDENCkFOQS8xMTMxOTMNCkNGRy8w MTJDMTUwWS83MzgNClJCRCBDL0pDRE9JWiBZL1lXVUJNS05RWEdUVkVTSEwN CkFWQUlMDQogQ0dLICBTVUINCkMwMTANClkwNjANCi1TVUIwNjRZDQpERUwN CjFISURBWUFUL0lWQU5NUg0KLkwvNlRYRlQ0DQpFTkRBREwNCg==</data>
+</file>
+</preFormattedBodyPart>
+</bodyPart>
+</EmailFormattingQuery>
+</soap:Body>
+</soap:Envelope>
+137 / FE 
+2024/04/22 07:16:06.886103 lgsap629-MUC obevp623 FE12TYZPGXE2LJK-759074 [PFX: 291HS6VS7S0001:6SMM0NRFFS8Q10GE9VB0ZM3OF0:1-1-2-1] RECEIVER: Nb=374115 Len=2544
+<soap:Envelope xmlns:soap="http://www.w3.org/2003/05/soap-envelope">
+<soap:Header xmlns:ns4="http://www.amadeus.net/1axml-msg/schema/msg-header-1_0.xsd">
+<ns4:MessageHeader ns4:ResponseRequested="false" ns4:Reverse="true" ns4:Terminate="true" ns4:id="000100UV3GRDK4" ns4:version="1.0" soap:mustUnderstand="1">
+<ns4:From>1ASIXFSXEDG2</ns4:From>
+<ns4:To>1A0TDS</ns4:To>
+<ns4:TimeStamp>
+<ns4:GenerationTime>2024-04-22T07:16:06Z</ns4:GenerationTime>
+</ns4:TimeStamp>
+<ns4:FromRef>
+<ns4:ID>291HS6VS7S</ns4:ID>
+<ns4:SequenceNb>1</ns4:SequenceNb>
+</ns4:FromRef>
+<ns4:ToRef>
+<ns4:ID>00IPJ29RCF</ns4:ID>
+<ns4:SequenceNb>1</ns4:SequenceNb>
+</ns4:ToRef>
+<ns4:Service ns4:id="JavaFormattingServer" ns4:version="">
+<ns4:name>FormatEmailDocumentResponse</ns4:name>
+</ns4:Service>
+<ns4:ExtendedData>
+<DCC VERS="1.0">
+<MW>
+<UKEY DPA="#######697012338989173#0#0" PAR="T07CGUSYC$BF1KN5DM5PARZ5J1" TRXNB="1-1-2-1" VAL="6SMM0NRFFS8Q10GE9VB0ZM3OF0" />
+<SAP NAME="1ASIMSX" />
+<DYNR>
+<PEAKTK TYPE="AIRIT" VAL="MSX-PK2" />
+</DYNR>
+</MW>
+<TRX>
+<SRC IP="172.25.16.148:58448" />
+</TRX>
+</DCC>
+</ns4:ExtendedData>
+</ns4:MessageHeader>
+</soap:Header>
+<soap:Body>
+<EmailFormattingReply xmlns="http://JavaFormattingServer" subject="Message sent from AMS" correlatorId="000100UV3GRDK4">
+<Status success="true" />
+<Statistics name="Transaction">
+<Statistic name="Elapsed Time" value="3" type="long"></Statistic>
+<Statistic name="Init Time" value="0" type="int" />
+<Statistic name="Formatting Time" value="3" type="int" />
+<Statistics name="Document 69028">
+<Statistic name="Document Identifier" value="69028" type="int" />
+<Statistic name="Document Size" value="172" type="int"></Statistic>
+<Statistic name="Elapsed Time" value="0" type="int" />
+<Statistic name="Init Engine Time" value="0" type="int" />
+</Statistics>
+</Statistics>
+<MimeMessage documentType="GEN">
+<file name="fileName" contentType="multipart/mixed; boundary="----=_Part_91723_1733103306.1713770166880"">
+<data encoding="base64" compressionType="none" unzippedSize="345" zippedSize="345">LS0tLS0tPV9QYXJ0XzkxNzIzXzE3MzMxMDMzMDYuMTcxMzc3MDE2Njg4MA0KQ29udGVudC1UeXBl OiB0ZXh0L3BsYWluOyBjaGFyc2V0PXVzLWFzY2lpDQpDb250ZW50LVRyYW5zZmVyLUVuY29kaW5n OiA3Yml0DQoNCkFETA0KR0EzMDQvMjRBUFIgQ0dLIFBBUlQxDQpBTkEvMTEzMTkzDQpDRkcvMDEy QzE1MFkvNzM4DQpSQkQgQy9KQ0RPSVogWS9ZV1VCTUtOUVhHVFZFU0hMDQpBVkFJTA0KIENHSyAg U1VCDQpDMDEwDQpZMDYwDQotU1VCMDY0WQ0KREVMDQoxSElEQVlBVC9JVkFOTVINCi5MLzZUWEZU NA0KRU5EQURMDQoNCi0tLS0tLT1fUGFydF85MTcyM18xNzMzMTAzMzA2LjE3MTM3NzAxNjY4ODAt LQ0K</data>
+</file>
+</MimeMessage>
+</EmailFormattingReply>
+</soap:Body>
+</soap:Envelope>
+138 / BE 
++0.4ms2024/04/22 07:16:06.886496 lgsap532-MUC obevp623 FND_Formatter-AMS_TDS#3-763186 APP INFO FMT <TaskJFSFormatting.cpp#143 TID#20> [PFX: 000100UV3GRDK4 | 316365823] Beginning of the postTask for the mother task JFS Formatting 
+139 / BE 
++0ms2024/04/22 07:16:06.886510 lgsap253-MUC obevp623 FND_Formatter-AMS_TDS#3-763186 APP INFO FMT <TaskJFSFormatting.cpp#214 TID#20> [PFX: 000100UV3GRDK4 | 316365823] JFS Formatting success
+140 / BE 
++0ms2024/04/22 07:16:06.886517 lgsap640-MUC obevp623 FND_Formatter-AMS_TDS#3-763186 APP INFO FMT <TaskJFSFormatting.cpp#102 TID#20> [PFX: 000100UV3GRDK4 | 316365823] Beginning of the preTask for the mother task JFS Formatting 
+141 / BE 
++0ms2024/04/22 07:16:06.886519 lgsap532-MUC obevp623 FND_Formatter-AMS_TDS#3-763186 APP INFO FMT <TaskJFSFormatting.cpp#104 TID#20> [PFX: 000100UV3GRDK4 | 316365823] Task cancelled
+142 / BE 
++0ms2024/04/22 07:16:06.886520 lgsap253-MUC obevp623 FND_Formatter-AMS_TDS#3-763186 APP INFO FMT <TaskJFSFormatting.cpp#143 TID#20> [PFX: 000100UV3GRDK4 | 316365823] Beginning of the postTask for the mother task JFS Formatting 
+143 / BE 
++0ms2024/04/22 07:16:06.886522 lgsap640-MUC obevp623 FND_Formatter-AMS_TDS#3-763186 APP INFO FMT <TaskJFSFormatting.cpp#144 TID#20> [PFX: 000100UV3GRDK4 | 316365823] Task cancelled
+144 / BE 
++0ms2024/04/22 07:16:06.886524 lgsap532-MUC obevp623 FND_Formatter-AMS_TDS#3-763186 APP INFO FMT <TaskJFSCaller.cpp#103 TID#20> [PFX: 000100UV3GRDK4 | 316365823] Beginning of the postTask for the task JFS caller 
+145 / BE 
++0ms2024/04/22 07:16:06.886527 lgsap253-MUC obevp623 FND_Formatter-AMS_TDS#3-763186 APP INFO FMT <PostFormattingController.cpp#51 TID#20> [PFX: 000100UV3GRDK4 | 316365823] Nothing to post format
+146 / BE 
++0ms2024/04/22 07:16:06.886531 lgsap640-MUC obevp623 FND_Formatter-AMS_TDS#3-763186 APP INFO <TaskFormatEmail.cpp#123 TID#20> [PFX: 000100UV3GRDK4 | 316365823] Decode email reply from FMT JFS API
+147 / BE 
++0.1ms2024/04/22 07:16:06.886584 lgsap532-MUC obevp623 FND_Formatter-AMS_TDS#3-763186 APP INFO <TaskFormatEmail.cpp#230 TID#20> [PFX: 000100UV3GRDK4 | 316365823] Email subject from layout: Message sent from AMS
+148 / STATS 
++0ms2024/04/22 07:16:06.886619 lgsap119-MUC obevp623 FND_Formatter-AMS_TDS#3-763186 APP STAT <BOJob.cpp#913 TID#20> [PFX: 000100UV3GRDK4 | 316365823] CSSLogsTrace: RequestID:MSX/GA/C512203F3E13/1,Request_TimeStamp:N/A,DeliverySystem:EML,Recipient_Number:.OOJUCAYADRPAMGLAM@NC,Provider:FND Internal,DeliveryTime:N/A,Status-Code:FORMATTED-OK,ErrorCode:N/A,ErrorDescription:N/A
+149 / BE 
++0.1ms2024/04/22 07:16:06.886669 lgsap253-MUC obevp623 FND_Formatter-AMS_TDS#3-763186 APP NOT <EntFormatter.cpp#144 TID#20> [PFX: 000100UV3GRDK4 | 316365823] Formatting finished for  aRequestId[MSX/GA/C512203F3E13/1] aJobId[1] - Moving Job to DeliveryQueue[DEL_JOB_EMAIL_AMS] _messageId[316365823] _queueName[FMT_JOB_AMS]
+150 / BE 
++0ms2024/04/22 07:16:06.886713 lgsap640-MUC obevp623 FND_Formatter-AMS_TDS#3-763186 APP NOT <QFCQueueController.h#53 TID#20> [PFX: 000100UV3GRDK4 | 316365823]  Correlation Id : .OOJUCAYADRPAMGLAM@NC
+151 / BE 
++0.2ms2024/04/22 07:16:06.886914 lgsap532-MUC obevp623 FND_Formatter-AMS_TDS#3-763186 APP INFO <BORequestID.cpp#69 TID#20> [PFX: 000100UV3GRDK4 | 316365823] BORequestID::kSerializationVersion = 2
+152 / BE 
++0.4ms2024/04/22 07:16:06.887316 lgsap253-MUC obevp623 FND_Formatter-AMS_TDS#3-763186 APP INFO <SerializationController.h#142 TID#20> [PFX: 000100UV3GRDK4 | 316365823] Duration of serialize: 595 us
+153 / BE 
++0.2ms2024/04/22 07:16:06.887554 lgsap640-MUC obevp623 FND_Formatter-AMS_TDS#3-763186 APP NOT <QFCQueueController.cpp#47 TID#20> [PFX: 000100UV3GRDK4 | 316365823] Enqueue item CARF=000100UV3GRDK4 in queue DEL_JOB_EMAIL_AMS
+154 / BE 
++0.3ms2024/04/22 07:16:06.887831 lgsap532-MUC obevp623 FND_Formatter-AMS_TDS#3-763186 APP INFO <SerializationController.h#142 TID#20> [PFX: 000100UV3GRDK4 | 316365823] Duration of serialize: 231 us
+155 / BE 
++0ms2024/04/22 07:16:06.887876 lgsap253-MUC obevp623 FND_Formatter-AMS_TDS#3-763186 APP INFO <QFCQueueController.cpp#148 TID#20> [PFX: 000100UV3GRDK4 | 316365823] Message size: 3517
+156 / BE 
++0ms2024/04/22 07:16:06.887897 lgsap640-MUC obevp623 FND_Formatter-AMS_TDS#3-763186 APP INFO <SecurityContextController.cpp#252 TID#20> [PFX: 000100UV3GRDK4 | 316365823] Failed to retrieve a valid Security Object
+157 / BE 
++1.5ms2024/04/22 07:16:06.889422 lgsap532-MUC obevp623 FND_Formatter-AMS_TDS#3-763186 APP INFO <QFCQueueController.cpp#175 TID#20> [PFX: 000100UV3GRDK4 | 316365823] Duration of lqsPush: 1867 us
+158 / BE 
++0ms2024/04/22 07:16:06.889437 lgsap253-MUC obevp623 FND_Formatter-AMS_TDS#3-763186 APP INFO <QFCQueueController.cpp#178 TID#20> [PFX: 000100UV3GRDK4 | 316365823] Queued item #316365824 in queue DEL_JOB_EMAIL_AMS
+159 / BE 
++0ms2024/04/22 07:16:06.889446 lgsap640-MUC obevp623 FND_Formatter-AMS_TDS#3-763186 APP NOT <EntFormatter.cpp#152 TID#20> [PFX: 000100UV3GRDK4 | 316365823] Removing old Item from  _messageId[316365823] _queueName[FMT_JOB_AMS]
+160 / BE 
++0ms2024/04/22 07:16:06.889448 lgsap532-MUC obevp623 FND_Formatter-AMS_TDS#3-763186 APP INFO <BOJob.cpp#962 TID#20> [PFX: 000100UV3GRDK4 | 316365823] Removing MessageId[316365823] from Queue[FMT_JOB_AMS]
+161 / BE 
++4.3ms2024/04/22 07:16:06.893701 lgsap258-MUC obevp623 FND_DequeuerSync-AMS_TDS#3-762130 APP NOT <QFCQueueController.cpp#221 TID#20> [PFX: 000100UV3GRDK4 | 316365824] Defined PFX from CARF = '000100UV3GRDK4' and LQS message id = '316365824'.
+162 / BE 
++0ms2024/04/22 07:16:06.893712 lgsap236-MUC obevp623 FND_DequeuerSync-AMS_TDS#3-762130 APP NOT <OTFResourcesController.cpp#208 TID#20> [PFX: 000100UV3GRDK4 | 316365824] Set owning organization [GA].
+163 / BE 
++0.5ms2024/04/22 07:16:06.894182 lgsap642-MUC obevp623 FND_DequeuerSync-AMS_TDS#3-762130 APP INFO <SerializationController.h#210 TID#20> [PFX: 000100UV3GRDK4 | 316365824] Duration of unserialize: 445 us
+164 / BE 
++0.2ms2024/04/22 07:16:06.894361 lgsap258-MUC obevp623 FND_DequeuerSync-AMS_TDS#3-762130 APP INFO <SecurityObjectController.cpp#59 TID#20> [PFX: 000100UV3GRDK4 | 316365824] SecurityObjectController Init called: false
+165 / BE 
++0ms2024/04/22 07:16:06.894378 lgsap236-MUC obevp623 FND_DequeuerSync-AMS_TDS#3-762130 APP INFO <SecurityObjectController.cpp#173 TID#20> [PFX: 000100UV3GRDK4 | 316365824] Security object was invalid (no DCX/no ORG or invalid office id) - GAC will not be initialized
+166 / BE 
++0ms2024/04/22 07:16:06.894381 lgsap642-MUC obevp623 FND_DequeuerSync-AMS_TDS#3-762130 APP INFO <QFCQueueController.cpp#270 TID#20> [PFX: 000100UV3GRDK4 | 316365824] Duration of lqsPop: 686 us
+167 / BE 
++0.3ms2024/04/22 07:16:06.894645 lgsap258-MUC obevp623 FND_DequeuerSync-AMS_TDS#3-762130 APP INFO <BORequestID.cpp#69 TID#20> [PFX: 000100UV3GRDK4 | 316365824] BORequestID::kSerializationVersion = 2
+168 / BE 
++0.5ms2024/04/22 07:16:06.895096 lgsap236-MUC obevp623 FND_DequeuerSync-AMS_TDS#3-762130 APP INFO <SerializationController.h#210 TID#20> [PFX: 000100UV3GRDK4 | 316365824] Duration of unserialize: 650 us
+169 / BE 
++0.1ms2024/04/22 07:16:06.895148 lgsap642-MUC obevp623 FND_DequeuerSync-AMS_TDS#3-762130 APP INFO <BOJob.cpp#1002 TID#20> [PFX: 000100UV3GRDK4 | 316365824] BOJob::LQSPop - RequestId[MSX/GA/C512203F3E13/1] JobId[1] aJobType[EML] aTTL[6000000] aElapsedTime/1000[37]
+170 / BE 
++0ms2024/04/22 07:16:06.895186 lgsap258-MUC obevp623 FND_DequeuerSync-AMS_TDS#3-762130 APP INFO FUP <PushEventProxy.cpp#49 TID#20> [PFX: 000100UV3GRDK4 | 316365824] Start session
+171 / BE 
++0ms2024/04/22 07:16:06.895197 lgsap236-MUC obevp623 FND_DequeuerSync-AMS_TDS#3-762130 APP NOT <FollowUpController.cpp#79 TID#20> [PFX: 000100UV3GRDK4 | 316365824] FUP connection open
+172 / BE 
++0ms2024/04/22 07:16:06.895231 lgsap642-MUC obevp623 FND_DequeuerSync-AMS_TDS#3-762130 APP NOT <DbDevice.cpp#96 TID#20> [PFX: 000100UV3GRDK4 | 316365824] DeliverySystem SMTP setted. Use of TdsDeviceDbAdaptor
+173 / BE 
++0ms2024/04/22 07:16:06.895244 lgsap258-MUC obevp623 FND_DequeuerSync-AMS_TDS#3-762130 APP NOT <DbDeviceSetup.cpp#128 TID#20> [PFX: 000100UV3GRDK4 | 316365824] DeliverySystem SMTP setted. Use of TdsDeviceSetupDbAdaptor
+174 / BE 
++0ms2024/04/22 07:16:06.895257 lgsap236-MUC obevp623 FND_DequeuerSync-AMS_TDS#3-762130 APP INFO <DeliveryProxyFactory.cpp#122 TID#20> [PFX: 000100UV3GRDK4 | 316365824] Delivery system: SMTP
+175 / BE 
++0ms2024/04/22 07:16:06.895281 lgsap642-MUC obevp623 FND_DequeuerSync-AMS_TDS#3-762130 APP NOT <SMTPProxy.cpp#289 TID#20> [PFX: 000100UV3GRDK4 | 316365824] SMTP - deliverEmail - Begin
+176 / BE 
++0ms2024/04/22 07:16:06.895315 lgsap258-MUC obevp623 FND_DequeuerSync-AMS_TDS#3-762130 APP NOT <SMTPProxy.cpp#141 TID#20> [PFX: 000100UV3GRDK4 | 316365824] SMTP URL: smtp://relay-internal.amadeus.net:802
+177 / BE 
++0ms2024/04/22 07:16:06.895346 lgsap236-MUC obevp623 FND_DequeuerSync-AMS_TDS#3-762130 APP INFO <GenericBZRProxy.cpp#952 TID#20> [PFX: 000100UV3GRDK4 | 316365824] ABR Call: findApplicableGeneric :  iRuleType[SPF] iOrgaSP->get()[1A] iReleaseNumber[0] iEdifactImplementation[false]
+178 / BE 
++0ms2024/04/22 07:16:06.895383 lgsap642-MUC obevp623 FND_DequeuerSync-AMS_TDS#3-762130 APP INFO <GenericBZRProxy.cpp#374 TID#20> [PFX: 000100UV3GRDK4 | 316365824] Criterion List: { [ ORG : GA ] [ APP : MSX ] [ DELIV_TYPE : EML ] [ DOC_TYPE : DEFAULT_VALUE ] }
+179 / BE 
++0ms2024/04/22 07:16:06.895412 lgsap258-MUC obevp623 FND_DequeuerSync-AMS_TDS#3-762130 MDW INFO ABR <IABRSuiteCacheRuleSearchImpl.cpp#196 TID#20> [PFX: 000100UV3GRDK4 | 316365824]
+ input values: BobInputValueGroup:
+
+BobInputValueInterface:
+
+ - id=0
+
+ - criteria: BobCriteriaInterface:
+
+APP=BobCriterionInterface: code:APP, value:MSX, level of match:0, is default:N, is ignored:N; DELIV_TYPE=BobCriterionInterface: code:DELIV_TYPE, value:EML, level of match:0, is default:N, is ignored:N; DOC_TYPE=BobCriterionInterface: code:DOC_TYPE, value:DEFAULT_VALUE, level of match:0, is default:N, is ignored:N; ORG=BobCriterionInterface: code:ORG, value:GA, level of match:0, is default:N, is ignored:N; 
+
+ - rule types: 
+
+BobRuleTypeDefinitionInterface:
+
+ - def key: [SPF, 1A, 0]
+
+ - owner: BobOwnerInterface: 
+
+BobOwnerWrapper: 
+
+BobOwner:
+
+- id: UNDEFINED
+
+- organization: 1A
+
+- application: TDS
+
+- sub-application: UNDEFINED
+
+- mkt Lss Appli: UNDEFINED
+
+- mkt Lss SubAppli: UNDEFINED
+
+- flg Lss Appli: UNDEFINED
+
+- flg Lss SubAppli: UNDEFINED
+
+- pos Lss Appli: UNDEFINED
+
+- pos Lss SubAppli: UNDEFINED
+
+- allow flg dup content: UNDEFINED
+
+- allow mkt dup content: UNDEFINED
+
+- allow pos dup content: UNDEFINED
+
+- flg deactivate is delete: UNDEFINED
+
+- bypass security for keywords: UNDEFINED
+
+- Lss Appli: UNDEFINED
+
+- Lss SubAppli: UNDEFINED
+
+
+
+ - level: 1
+180 / BE 
++0.1ms2024/04/22 07:16:06.895536 lgsap236-MUC obevp623 FND_DequeuerSync-AMS_TDS#3-762130 APP INFO <GenericBZRProxy.cpp#725 TID#20> [PFX: 000100UV3GRDK4 | 316365824] Content List: { [ ABR RuleID : 192878110 ] [ ALIGN : iyes ] }
+181 / BE 
++0ms2024/04/22 07:16:06.895560 lgsap642-MUC obevp623 FND_DequeuerSync-AMS_TDS#3-762130 APP INFO <MailToolbox.cpp#271 TID#20> [PFX: 000100UV3GRDK4 | 316365824] SPF New rule found
+182 / BE 
++0ms2024/04/22 07:16:06.895579 lgsap258-MUC obevp623 FND_DequeuerSync-AMS_TDS#3-762130 APP INFO <MailToolbox.cpp#292 TID#20> [PFX: 000100UV3GRDK4 | 316365824] aIsAlignMFrom: true
+183 / BE 
++0ms2024/04/22 07:16:06.895588 lgsap236-MUC obevp623 FND_DequeuerSync-AMS_TDS#3-762130 APP INFO <MailToolbox.cpp#293 TID#20> [PFX: 000100UV3GRDK4 | 316365824]  _sender._fullAddress MUCPNGA from Amadeus Messaging Server <naeopra-useyo@s.cmmamld>
+184 / BE 
++0ms2024/04/22 07:16:06.895605 lgsap642-MUC obevp623 FND_DequeuerSync-AMS_TDS#3-762130 APP NOT <BusinessRulesController.cpp#561 TID#20> [PFX: 000100UV3GRDK4 | 316365824] selectRecipientsFromABR begin
+185 / BE 
++0ms2024/04/22 07:16:06.895617 lgsap258-MUC obevp623 FND_DequeuerSync-AMS_TDS#3-762130 APP NOT <BusinessRulesController.cpp#576 TID#20> [PFX: 000100UV3GRDK4 | 316365824] If filtering rule fails accept all recipients.
+186 / BE 
++0ms2024/04/22 07:16:06.895648 lgsap236-MUC obevp623 FND_DequeuerSync-AMS_TDS#3-762130 APP INFO <GenericBZRProxy.cpp#952 TID#20> [PFX: 000100UV3GRDK4 | 316365824] ABR Call: findApplicableGeneric :  iRuleType[DFLT] iOrgaSP->get()[1A] iReleaseNumber[0] iEdifactImplementation[false]
+187 / BE 
++0ms2024/04/22 07:16:06.895673 lgsap642-MUC obevp623 FND_DequeuerSync-AMS_TDS#3-762130 APP INFO <GenericBZRProxy.cpp#349 TID#20> [PFX: 000100UV3GRDK4 | 316365824] Get POS from security object: 
+188 / BE 
++0ms2024/04/22 07:16:06.895686 lgsap258-MUC obevp623 FND_DequeuerSync-AMS_TDS#3-762130 APP INFO <GenericBZRProxy.cpp#374 TID#20> [PFX: 000100UV3GRDK4 | 316365824] Criterion List: { [ ORGA : GA ] [ APP : MSX ] [ POS : DEFAULT_VALUE ] [ RCP_ADTYPE : EML ] }
+189 / BE 
++0ms2024/04/22 07:16:06.895705 lgsap236-MUC obevp623 FND_DequeuerSync-AMS_TDS#3-762130 MDW INFO ABR <IABRSuiteCacheRuleSearchImpl.cpp#196 TID#20> [PFX: 000100UV3GRDK4 | 316365824]
+ input values: BobInputValueGroup:
+
+BobInputValueInterface:
+
+ - id=0
+
+ - criteria: BobCriteriaInterface:
+
+APP=BobCriterionInterface: code:APP, value:MSX, level of match:0, is default:N, is ignored:N; ORGA=BobCriterionInterface: code:ORGA, value:GA, level of match:0, is default:N, is ignored:N; POS=BobCriterionInterface: code:POS, value:DEFAULT_VALUE, level of match:0, is default:N, is ignored:N; RCP_ADTYPE=BobCriterionInterface: code:RCP_ADTYPE, value:EML, level of match:0, is default:N, is ignored:N; 
+
+ - rule types: 
+
+BobRuleTypeDefinitionInterface:
+
+ - def key: [DFLT, 1A, 0]
+
+ - owner: BobOwnerInterface: 
+
+BobOwnerWrapper: 
+
+BobOwner:
+
+- id: UNDEFINED
+
+- organization: 1A
+
+- application: TDS
+
+- sub-application: UNDEFINED
+
+- mkt Lss Appli: UNDEFINED
+
+- mkt Lss SubAppli: UNDEFINED
+
+- flg Lss Appli: UNDEFINED
+
+- flg Lss SubAppli: UNDEFINED
+
+- pos Lss Appli: UNDEFINED
+
+- pos Lss SubAppli: UNDEFINED
+
+- allow flg dup content: UNDEFINED
+
+- allow mkt dup content: UNDEFINED
+
+- allow pos dup content: UNDEFINED
+
+- flg deactivate is delete: UNDEFINED
+
+- bypass security for keywords: UNDEFINED
+
+- Lss Appli: UNDEFINED
+
+- Lss SubAppli: UNDEFINED
+
+
+
+ - level: 1
+190 / BE 
++0.1ms2024/04/22 07:16:06.895810 lgsap642-MUC obevp623 FND_DequeuerSync-AMS_TDS#3-762130 APP INFO <GenericBZRProxy.cpp#725 TID#20> [PFX: 000100UV3GRDK4 | 316365824] Content List: { [ ABR RuleID : 53910581 ] [ RCPADDRE : .*@.* ] [ WHITESLI : Auth ] }
+191 / BE 
++0ms2024/04/22 07:16:06.895834 lgsap258-MUC obevp623 FND_DequeuerSync-AMS_TDS#3-762130 APP NOT <BusinessRulesController.cpp#628 TID#20> [PFX: 000100UV3GRDK4 | 316365824] DFLT rule Type is: Auth (Auth=WhiteList | Inhib=BlackList)
+192 / BE 
++0ms2024/04/22 07:16:06.895862 lgsap236-MUC obevp623 FND_DequeuerSync-AMS_TDS#3-762130 APP NOT <BusinessRulesController.cpp#701 TID#20> [PFX: 000100UV3GRDK4 | 316365824] Rule type SENDLIST won't be checked.
+193 / BE 
++0ms2024/04/22 07:16:06.895869 lgsap642-MUC obevp623 FND_DequeuerSync-AMS_TDS#3-762130 APP NOT <BusinessRulesController.cpp#716 TID#20> [PFX: 000100UV3GRDK4 | 316365824] Whitelisting | list size: 1
+194 / BE 
++0ms2024/04/22 07:16:06.895882 lgsap258-MUC obevp623 FND_DequeuerSync-AMS_TDS#3-762130 APP NOT <BusinessRulesController.cpp#723 TID#20> [PFX: 000100UV3GRDK4 | 316365824] Delivery Type : EML
+195 / BE 
++0ms2024/04/22 07:16:06.895891 lgsap236-MUC obevp623 FND_DequeuerSync-AMS_TDS#3-762130 APP NOT <BusinessRulesController.cpp#730 TID#20> [PFX: 000100UV3GRDK4 | 316365824] checking Email recipient: .uaanycmmocp@jodrgaal with regExp rule : .*@.*
+196 / BE 
++0ms2024/04/22 07:16:06.895918 lgsap642-MUC obevp623 FND_DequeuerSync-AMS_TDS#3-762130 APP NOT <BusinessRulesController.cpp#787 TID#20> [PFX: 000100UV3GRDK4 | 316365824] MATCH
+197 / BE 
++0ms2024/04/22 07:16:06.895928 lgsap258-MUC obevp623 FND_DequeuerSync-AMS_TDS#3-762130 APP NOT <BusinessRulesController.cpp#841 TID#20> [PFX: 000100UV3GRDK4 | 316365824] Blacklisting | list size: 0
+198 / BE 
++43.9ms2024/04/22 07:16:06.939849 lgsap236-MUC obevp623 FND_DequeuerSync-AMS_TDS#3-762130 APP NOT <SMTPProxy.cpp#46 TID#20> [PFX: 000100UV3GRDK4 | 316365824] SMTP KO: curl_easy_perform | Failed sending data to the peer
+199 / BE 
++0ms2024/04/22 07:16:06.939870 lgsap642-MUC obevp623 FND_DequeuerSync-AMS_TDS#3-762130 APP NOT <SMTPProxy.cpp#51 TID#20> [PFX: 000100UV3GRDK4 | 316365824] Recipient: .OOJUCAYADRPAMGLAM@NC
+200 / BE 
++0ms2024/04/22 07:16:06.939873 lgsap258-MUC obevp623 FND_DequeuerSync-AMS_TDS#3-762130 APP NOT <SMTPProxy.cpp#54 TID#20> [PFX: 000100UV3GRDK4 | 316365824] Originator: MUCPNGA from Amadeus Messaging Server <naeopra-useyo@s.cmmamld>
+201 / STATS 
++0.5ms2024/04/22 07:16:06.940395 lgsap318-MUC obevp623 FND_DequeuerSync-AMS_TDS#3-762130 APP STAT <SMTPProxy.cpp#401 TID#20> [PFX: 000100UV3GRDK4 | 316365824] EML delivery: MSX/GA/C512203F3E13/1/1/GA/smtp://relay-internal.amadeus.net:802/MUCPNGA from Amadeus Messaging Server <naeopra-useyo@s.cmmamld>/962/0/FAIL
+202 / BE 
++0.9ms2024/04/22 07:16:06.941331 lgsap236-MUC obevp623 FND_DequeuerSync-AMS_TDS#3-762130 APP NOT <BaseTask.cpp#144 TID#20> [PFX: 000100UV3GRDK4 | 316365824] Business exception received in SMTPProxy::preTask :  -- SMTP fail: Failed sending data to the peer
+203 / BE 
++0.1ms2024/04/22 07:16:06.941387 lgsap642-MUC obevp623 FND_DequeuerSync-AMS_TDS#3-762130 APP NOT <BaseTask.cpp#192 TID#20> [PFX: 000100UV3GRDK4 | 316365824] Business exception received in SMTPProxy::execute :  -- SMTP fail: Failed sending data to the peer -- Business exception received in SMTPProxy::preTask
+204 / BE 
++0ms2024/04/22 07:16:06.941420 lgsap258-MUC obevp623 FND_DequeuerSync-AMS_TDS#3-762130 APP NOT <UscDeliver.cpp#144 TID#20> [PFX: 000100UV3GRDK4 | 316365824] Error while delivering the job
+205 / BE 
++0ms2024/04/22 07:16:06.941450 lgsap236-MUC obevp623 FND_DequeuerSync-AMS_TDS#3-762130 MDW NOT <RFD_ApiConnection.cpp#197 TID#20> [PFX: 000100UV3GRDK4 | 316365824] Detected new SQLite file for RFD (current file timestamp[1713761423 < flipflop file timestamp[1713761423])
+206 / BE 
++0ms2024/04/22 07:16:06.941452 lgsap642-MUC obevp623 FND_DequeuerSync-AMS_TDS#3-762130 MDW NOT <RFD_ApiConnection.cpp#282 TID#20> [PFX: 000100UV3GRDK4 | 316365824] Connecting RFD on SQLite file /ama/obe/PRD/tds/gmc/data/SQLite/rfd/ref_synchro.2024-04-22_04-49-10.63732.db ..
+207 / BE 
++0.1ms2024/04/22 07:16:06.941565 lgsap258-MUC obevp623 FND_DequeuerSync-AMS_TDS#3-762130 MDW NOT <RFD_ApiConnection.cpp#291 TID#20> [PFX: 000100UV3GRDK4 | 316365824] SQLite database connected
+208 / BE 
++0ms2024/04/22 07:16:06.941574 lgsap236-MUC obevp623 FND_DequeuerSync-AMS_TDS#3-762130 MDW NOT <RFD_ApiConnection.cpp#304 TID#20> [PFX: 000100UV3GRDK4 | 316365824] Setting SQLite pragmas ..
+209 / BE 
++0ms2024/04/22 07:16:06.941576 lgsap642-MUC obevp623 FND_DequeuerSync-AMS_TDS#3-762130 MDW NOT <RFD_ApiConnection.cpp#313 TID#20> [PFX: 000100UV3GRDK4 | 316365824] All SQLite pragmas have been set
+210 / BE 
++0.4ms2024/04/22 07:16:06.942008 lgsap236-MUC obevp623 FND_DequeuerSync-AMS_TDS#3-762130 MDW NOT <RFD_ApiConnection.cpp#197 TID#20> [PFX: 000100UV3GRDK4 | 316365824] Detected new SQLite file for RFD (current file timestamp[1713761423 < flipflop file timestamp[1713761423])
+211 / BE 
++0ms2024/04/22 07:16:06.942022 lgsap642-MUC obevp623 FND_DequeuerSync-AMS_TDS#3-762130 MDW NOT <RFD_ApiConnection.cpp#282 TID#20> [PFX: 000100UV3GRDK4 | 316365824] Connecting RFD on SQLite file /ama/obe/PRD/tds/gmc/data/SQLite/rfd/ref_synchro.2024-04-22_04-49-10.63732.db ..
+212 / BE 
++0.1ms2024/04/22 07:16:06.942105 lgsap258-MUC obevp623 FND_DequeuerSync-AMS_TDS#3-762130 MDW NOT <RFD_ApiConnection.cpp#291 TID#20> [PFX: 000100UV3GRDK4 | 316365824] SQLite database connected
+213 / BE 
++0ms2024/04/22 07:16:06.942114 lgsap236-MUC obevp623 FND_DequeuerSync-AMS_TDS#3-762130 MDW NOT <RFD_ApiConnection.cpp#304 TID#20> [PFX: 000100UV3GRDK4 | 316365824] Setting SQLite pragmas ..
+214 / BE 
++0ms2024/04/22 07:16:06.942116 lgsap642-MUC obevp623 FND_DequeuerSync-AMS_TDS#3-762130 MDW NOT <RFD_ApiConnection.cpp#313 TID#20> [PFX: 000100UV3GRDK4 | 316365824] All SQLite pragmas have been set
+215 / BE 
++0.3ms2024/04/22 07:16:06.942409 lgsap236-MUC obevp623 FND_DequeuerSync-AMS_TDS#3-762130 APP INFO <BORetryPolicy.cpp#275 TID#20> [PFX: 000100UV3GRDK4 | 316365824] OTF Var map Size:1
+216 / BE 
++0.1ms2024/04/22 07:16:06.942487 lgsap642-MUC obevp623 FND_DequeuerSync-AMS_TDS#3-762130 APP NOT <BusinessException.cpp#77 TID#20> [PFX: 000100UV3GRDK4 | 316365824]
+ BUSINESS ERROR:
+
+ *** Detailed stack ***
+
+at src/bom/deliverySystemProxy/SMTPProxy.cpp:57 void {anonymous}::CheckCurlResult(CURLcode, const string&, std::vector<boost::shared_ptr<FND::BORecipient> >, COM::AddressingDataSP) - SMTP fail: Failed sending data to the peer
+
+at src/task/BaseTask.cpp:145 virtual void tds::tbx::BaseTask::handleExceptionInPreTask(tds::tbx::BusinessException&) - Business exception received in SMTPProxy::preTask
+
+at src/task/BaseTask.cpp:193 virtual void tds::tbx::BaseTask::handleExceptionInExecute(tds::tbx::BusinessException&) - Business exception received in SMTPProxy::execute
+
+at src/usecase/formatAndDeliver/UscDeliver.cpp:163 virtual void FND::UscDeliver::handleExceptionInExecute(tds::tbx::BusinessException&) - Business exception occurred while dispatching.
+
+
+
+ *** End detailed stack ***
+
+ *** Stack ***
+
+tds::tbx::BusinessException APP, TDS [36778/] Deterministic " -- SMTP fail: Failed sending data to the peer -- Business exception received in SMTPProxy::preTask -- Business exception received in SMTPProxy::execute -- Business exception occurred while dispatching."
+
+
+
+#0 in '(anonymous namespace)::CheckCurlResult(CURLcode, std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const&, std::vector<boost::shared_ptr<FND::BORecipient>, std::allocator<boost::shared_ptr<FND::BORecipient> > >, boost::shared_ptr<COM::AddressingData>)' at 'libfndKitCore.so.18.0.52'
+
+#1 in 'FND::SMTPProxy::deliverEmail() const' at 'libfndKitCore.so.18.0.52'
+
+#2 in 'FND::SMTPProxy::preTask()' at 'libfndKitCore.so.18.0.52'
+
+#3 in 'tds::tbx::BaseTask::protectedPreTask()' at 'libcomKitTdsToolbox.so.18.0.12'
+
+#4 in 'task::MWTask::internalExecute()' at 'libcomKitTask.so.18.0.9'
+
+#5 in 'tds::tbx::BaseTask::execute()' at 'libcomKitTdsToolbox.so.18.0.12'
+
+#6 in 'task::MWTask::internalExecute()' at 'libcomKitTask.so.18.0.9'
+
+#7 in 'tds::tbx::BaseTask::execute()' at 'libcomKitTdsToolbox.so.18.0.12'
+
+#8 in 'FND::UscDeliver::run()' at 'libfndKitCore.so.18.0.52'
+
+#9 in 'FND::EntDispatcher::handleInboundLQSMessage(qfc::Message&)' at 'libfndKitCore.so.18.0.52'
+
+#10 in 'COM::BaseQFCDaemon::dequeueCallback(UP_SQLDBConnection&, qfc::Message&)' at 'libcomKitBom.so.18.0.52'
+
+#11 in 'COM::BaseQFCDaemonTemplate<ohf::LQSMultiQueueDequeueingPolicy>::dequeueCallback(UP_SQLDBConnection&, qfc::Message&)' at 'libfndDmnDequeuerSync.so.18.0.52.0'
+
+#12 in 'ohf::QueueOTFDBDaemon<ohf::LQSMultiQueueDequeueingPolicy>::loopCallbackDb(UP_SQLDBConnection&)' at 'libfndDmnDequeuerSync.so.18.0.52.0'
+
+#13 in 'ohf::DBDaemon::loopCallback()' at 'libOHF.so.18.0.0'
+
+#14 in 'ohf::BaseDaemon::loopCallbackNoThrow()' at 'libOHF.so.18.0.0'
+
+#15 in 'ohf::OTFDBDaemon::run()' at 'libOHF.so.18.0.0'
+
+#16 in 'invoke(otf::backend::InjectorManager&, otf::backend::SafeInvoker const&, otf::Error_t&, std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const&, std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const&)' at 'otf_be'
+
+#17 in 'otf::backend::InjectorManager::invoke()' at 'otf_be'
+
+#18 in 'otf::backend::DaemonManager::run()' at 'otf_be'
+
+#19 in 'otf::backend::ProcessTask::run()' at 'otf_be'
+
+#20 in 'toolbox::Task::Svc_run(toolbox::Task*)' at 'libtoolbox.so.18.0.0'
+
+#21 in 'toolbox::Thread::RunThreadFct(void*)' at 'libtoolbox.so.18.0.0'
+
+#22 in ? at 'libc.so.6'
+
+#23 in ? at 'libc.so.6'
+
+ *** End stack ***
+
+217 / BE 
++0ms2024/04/22 07:16:06.942504 lgsap258-MUC obevp623 FND_DequeuerSync-AMS_TDS#3-762130 APP INFO <BORetryPolicy.cpp#309 TID#20> [PFX: 000100UV3GRDK4 | 316365824] Checking delivery retry after error: 36778
+218 / BE 
++0ms2024/04/22 07:16:06.942515 lgsap236-MUC obevp623 FND_DequeuerSync-AMS_TDS#3-762130 APP INFO <BORetryPolicy.cpp#360 TID#20> [PFX: 000100UV3GRDK4 | 316365824] Max retry reached: 0
+219 / BE 
++0ms2024/04/22 07:16:06.942532 lgsap642-MUC obevp623 FND_DequeuerSync-AMS_TDS#3-762130 MDW NOT <RFD_ApiConnection.cpp#197 TID#20> [PFX: 000100UV3GRDK4 | 316365824] Detected new SQLite file for RFD (current file timestamp[1713761423 < flipflop file timestamp[1713761423])
+220 / BE 
++0ms2024/04/22 07:16:06.942541 lgsap258-MUC obevp623 FND_DequeuerSync-AMS_TDS#3-762130 MDW NOT <RFD_ApiConnection.cpp#282 TID#20> [PFX: 000100UV3GRDK4 | 316365824] Connecting RFD on SQLite file /ama/obe/PRD/tds/gmc/data/SQLite/rfd/ref_synchro.2024-04-22_04-49-10.63732.db ..
+221 / BE 
++0.1ms2024/04/22 07:16:06.942621 lgsap236-MUC obevp623 FND_DequeuerSync-AMS_TDS#3-762130 MDW NOT <RFD_ApiConnection.cpp#291 TID#20> [PFX: 000100UV3GRDK4 | 316365824] SQLite database connected
+222 / BE 
++0ms2024/04/22 07:16:06.942630 lgsap642-MUC obevp623 FND_DequeuerSync-AMS_TDS#3-762130 MDW NOT <RFD_ApiConnection.cpp#304 TID#20> [PFX: 000100UV3GRDK4 | 316365824] Setting SQLite pragmas ..
+223 / BE 
++0ms2024/04/22 07:16:06.942631 lgsap258-MUC obevp623 FND_DequeuerSync-AMS_TDS#3-762130 MDW NOT <RFD_ApiConnection.cpp#313 TID#20> [PFX: 000100UV3GRDK4 | 316365824] All SQLite pragmas have been set
+224 / BE 
++0.3ms2024/04/22 07:16:06.942896 lgsap642-MUC obevp623 FND_DequeuerSync-AMS_TDS#3-762130 MDW NOT <RFD_ApiConnection.cpp#197 TID#20> [PFX: 000100UV3GRDK4 | 316365824] Detected new SQLite file for RFD (current file timestamp[1713761423 < flipflop file timestamp[1713761423])
+225 / BE 
++0ms2024/04/22 07:16:06.942910 lgsap258-MUC obevp623 FND_DequeuerSync-AMS_TDS#3-762130 MDW NOT <RFD_ApiConnection.cpp#282 TID#20> [PFX: 000100UV3GRDK4 | 316365824] Connecting RFD on SQLite file /ama/obe/PRD/tds/gmc/data/SQLite/rfd/ref_synchro.2024-04-22_04-49-10.63732.db ..
+226 / BE 
++0.1ms2024/04/22 07:16:06.942990 lgsap236-MUC obevp623 FND_DequeuerSync-AMS_TDS#3-762130 MDW NOT <RFD_ApiConnection.cpp#291 TID#20> [PFX: 000100UV3GRDK4 | 316365824] SQLite database connected
+227 / BE 
++0ms2024/04/22 07:16:06.942998 lgsap642-MUC obevp623 FND_DequeuerSync-AMS_TDS#3-762130 MDW NOT <RFD_ApiConnection.cpp#304 TID#20> [PFX: 000100UV3GRDK4 | 316365824] Setting SQLite pragmas ..
+228 / BE 
++0ms2024/04/22 07:16:06.943000 lgsap258-MUC obevp623 FND_DequeuerSync-AMS_TDS#3-762130 MDW NOT <RFD_ApiConnection.cpp#313 TID#20> [PFX: 000100UV3GRDK4 | 316365824] All SQLite pragmas have been set
+229 / BE 
++0.3ms2024/04/22 07:16:06.943267 lgsap642-MUC obevp623 FND_DequeuerSync-AMS_TDS#3-762130 APP NOT <EntDispatcher.cpp#75 TID#20> [PFX: 000100UV3GRDK4 | 316365824] Moving delivery item to  aErrorQueue[DEL_JOB_ERROR_EMAIL] - aRequestId[MSX/GA/C512203F3E13/1] aJobId[1] _messageId[316365824] _queueName[DEL_JOB_EMAIL_AMS]
+230 / BE 
++0.1ms2024/04/22 07:16:06.943321 lgsap258-MUC obevp623 FND_DequeuerSync-AMS_TDS#3-762130 APP NOT <QFCQueueController.h#53 TID#20> [PFX: 000100UV3GRDK4 | 316365824]  Correlation Id : .OOJUCAYADRPAMGLAM@NC
+231 / BE 
++0.4ms2024/04/22 07:16:06.943678 lgsap236-MUC obevp623 FND_DequeuerSync-AMS_TDS#3-762130 APP INFO <BORequestID.cpp#69 TID#20> [PFX: 000100UV3GRDK4 | 316365824] BORequestID::kSerializationVersion = 2
+232 / BE 
++0.6ms2024/04/22 07:16:06.944235 lgsap642-MUC obevp623 FND_DequeuerSync-AMS_TDS#3-762130 APP INFO <SerializationController.h#142 TID#20> [PFX: 000100UV3GRDK4 | 316365824] Duration of serialize: 899 us
+233 / BE 
++0.3ms2024/04/22 07:16:06.944530 lgsap258-MUC obevp623 FND_DequeuerSync-AMS_TDS#3-762130 APP NOT <QFCQueueController.cpp#47 TID#20> [PFX: 000100UV3GRDK4 | 316365824] Enqueue item CARF=000100UV3GRDK4 in queue DEL_JOB_ERROR_EMAIL
+234 / BE 
++0.3ms2024/04/22 07:16:06.944826 lgsap236-MUC obevp623 FND_DequeuerSync-AMS_TDS#3-762130 APP INFO <SerializationController.h#142 TID#20> [PFX: 000100UV3GRDK4 | 316365824] Duration of serialize: 240 us
+235 / BE 
++0.1ms2024/04/22 07:16:06.944880 lgsap642-MUC obevp623 FND_DequeuerSync-AMS_TDS#3-762130 APP INFO <QFCQueueController.cpp#148 TID#20> [PFX: 000100UV3GRDK4 | 316365824] Message size: 3631
+236 / BE 
++0ms2024/04/22 07:16:06.944903 lgsap258-MUC obevp623 FND_DequeuerSync-AMS_TDS#3-762130 APP INFO <SecurityContextController.cpp#252 TID#20> [PFX: 000100UV3GRDK4 | 316365824] Failed to retrieve a valid Security Object
+237 / BE 
++1.8ms2024/04/22 07:16:06.946689 lgsap236-MUC obevp623 FND_DequeuerSync-AMS_TDS#3-762130 APP INFO <QFCQueueController.cpp#175 TID#20> [PFX: 000100UV3GRDK4 | 316365824] Duration of lqsPush: 2159 us
+238 / BE 
++0ms2024/04/22 07:16:06.946704 lgsap642-MUC obevp623 FND_DequeuerSync-AMS_TDS#3-762130 APP INFO <QFCQueueController.cpp#178 TID#20> [PFX: 000100UV3GRDK4 | 316365824] Queued item #12580262 in queue DEL_JOB_ERROR_EMAIL
+239 / BE 
++0ms2024/04/22 07:16:06.946714 lgsap258-MUC obevp623 FND_DequeuerSync-AMS_TDS#3-762130 APP NOT <EntDispatcher.cpp#80 TID#20> [PFX: 000100UV3GRDK4 | 316365824] Removing delivery item in error - aRequestId[MSX/GA/C512203F3E13/1] aJobId[1] _messageId[316365824] _queueName[DEL_JOB_EMAIL_AMS]
+240 / BE 
++0ms2024/04/22 07:16:06.946716 lgsap236-MUC obevp623 FND_DequeuerSync-AMS_TDS#3-762130 APP INFO <BOJob.cpp#962 TID#20> [PFX: 000100UV3GRDK4 | 316365824] Removing MessageId[316365824] from Queue[DEL_JOB_EMAIL_AMS]
+241 / BE 
++4.8ms2024/04/22 07:16:06.951520 lgsap259-MUC obevp623 FND_ErrorHandler_TDS#3-763000 APP NOT <QFCQueueController.cpp#221 TID#20> [PFX: 000100UV3GRDK4 | 12580262] Defined PFX from CARF = '000100UV3GRDK4' and LQS message id = '12580262'.
+242 / BE 
++0ms2024/04/22 07:16:06.951523 lgsap428-MUC obevp623 FND_ErrorHandler_TDS#3-763000 APP NOT <OTFResourcesController.cpp#208 TID#20> [PFX: 000100UV3GRDK4 | 12580262] Set owning organization [GA].
+243 / BE 
++0.5ms2024/04/22 07:16:06.951974 lgsap141-MUC obevp623 FND_ErrorHandler_TDS#3-763000 APP INFO <SerializationController.h#210 TID#20> [PFX: 000100UV3GRDK4 | 12580262] Duration of unserialize: 430 us
+244 / BE 
++0.2ms2024/04/22 07:16:06.952162 lgsap259-MUC obevp623 FND_ErrorHandler_TDS#3-763000 APP INFO <SecurityObjectController.cpp#59 TID#20> [PFX: 000100UV3GRDK4 | 12580262] SecurityObjectController Init called: false
+245 / BE 
++0ms2024/04/22 07:16:06.952171 lgsap428-MUC obevp623 FND_ErrorHandler_TDS#3-763000 APP INFO <SecurityObjectController.cpp#173 TID#20> [PFX: 000100UV3GRDK4 | 12580262] Security object was invalid (no DCX/no ORG or invalid office id) - GAC will not be initialized
+246 / BE 
++0ms2024/04/22 07:16:06.952174 lgsap141-MUC obevp623 FND_ErrorHandler_TDS#3-763000 APP INFO <QFCQueueController.cpp#270 TID#20> [PFX: 000100UV3GRDK4 | 12580262] Duration of lqsPop: 661 us
+247 / BE 
++0.3ms2024/04/22 07:16:06.952428 lgsap259-MUC obevp623 FND_ErrorHandler_TDS#3-763000 APP INFO <BORequestID.cpp#69 TID#20> [PFX: 000100UV3GRDK4 | 12580262] BORequestID::kSerializationVersion = 2
+248 / BE 
++0.5ms2024/04/22 07:16:06.952892 lgsap428-MUC obevp623 FND_ErrorHandler_TDS#3-763000 APP INFO <SerializationController.h#210 TID#20> [PFX: 000100UV3GRDK4 | 12580262] Duration of unserialize: 658 us
+249 / BE 
++0ms2024/04/22 07:16:06.952932 lgsap141-MUC obevp623 FND_ErrorHandler_TDS#3-763000 APP INFO <BOJob.cpp#1002 TID#20> [PFX: 000100UV3GRDK4 | 12580262] BOJob::LQSPop - RequestId[MSX/GA/C512203F3E13/1] JobId[1] aJobType[EML] aTTL[0] aElapsedTime/1000[94]
+250 / BE 
++0ms2024/04/22 07:16:06.952938 lgsap259-MUC obevp623 FND_ErrorHandler_TDS#3-763000 APP NOT <EntErrorHandler.cpp#54 TID#20> [PFX: 000100UV3GRDK4 | 12580262] No more retry is possible, the job will be purged: MSX/GA/C512203F3E13/1 - _messageId[12580262] _queueName[DEL_JOB_ERROR_EMAIL]
+251 / STATS 
++0ms2024/04/22 07:16:06.952941 lgsap137-MUC obevp623 FND_ErrorHandler_TDS#3-763000 APP STAT <EntErrorHandler.cpp#58 TID#20> [PFX: 000100UV3GRDK4 | 12580262] Counter Perf: PurgedJobSMTP 1
+252 / BE 
++0ms2024/04/22 07:16:06.952946 lgsap428-MUC obevp623 FND_ErrorHandler_TDS#3-763000 APP NOT <DbDeviceSetup.cpp#128 TID#20> [PFX: 000100UV3GRDK4 | 12580262] DeliverySystem SMTP setted. Use of TdsDeviceSetupDbAdaptor
+253 / BE 
++0ms2024/04/22 07:16:06.952951 lgsap141-MUC obevp623 FND_ErrorHandler_TDS#3-763000 APP NOT <DbDevice.cpp#96 TID#20> [PFX: 000100UV3GRDK4 | 12580262] DeliverySystem SMTP setted. Use of TdsDeviceDbAdaptor
+254 / BE 
++0ms2024/04/22 07:16:06.952967 lgsap259-MUC obevp623 FND_ErrorHandler_TDS#3-763000 APP INFO FUP <PushEventProxy.cpp#49 TID#20> [PFX: 000100UV3GRDK4 | 12580262] Start session
+255 / BE 
++0ms2024/04/22 07:16:06.952971 lgsap428-MUC obevp623 FND_ErrorHandler_TDS#3-763000 APP NOT <FollowUpController.cpp#79 TID#20> [PFX: 000100UV3GRDK4 | 12580262] FUP connection open
+256 / BE 
++0ms2024/04/22 07:16:06.952999 lgsap141-MUC obevp623 FND_ErrorHandler_TDS#3-763000 APP NOT <UscErrorHandler.cpp#217 TID#20> [PFX: 000100UV3GRDK4 | 12580262] Unable to send CRT notification for jobID1: no CRT tid.
+257 / BE 
++0ms2024/04/22 07:16:06.953011 lgsap259-MUC obevp623 FND_ErrorHandler_TDS#3-763000 APP INFO <OTFResourcesController.cpp#551 TID#20> [PFX: 000100UV3GRDK4 | 12580262] No asynchronous message to send
+258 / BE 
++0ms2024/04/22 07:16:06.953017 lgsap428-MUC obevp623 FND_ErrorHandler_TDS#3-763000 APP INFO FUP <PushEventProxy.cpp#94 TID#20> [PFX: 000100UV3GRDK4 | 12580262] All events pushed
+259 / BE 
++1ms2024/04/22 07:16:06.954062 lgsap141-MUC obevp623 FND_ErrorHandler_TDS#3-763000 APP INFO <OTFResourcesController.cpp#551 TID#20> [PFX: 000100UV3GRDK4 | 12580262] No asynchronous message to send
